@@ -1,0 +1,1147 @@
+
+Advance Wars- Dual Strike+
+	Lead creator: EgalLau37
+	[Discord:			@SageMatthis#8442 ]
+	[Discord:			https://discord.gg/dgPHASWY3G (Server of Actual_Krys "Actual_Discord")]
+	[Youtube:			https://www.youtube.com/channel/UCkNo0SdGvbo-iRnNrKnftIQ ]
+
+Current Version: (1.6.2) {11/09/2024}
+Current overview:
+	♦Rebalances all COs to be in roughly the same tier for PVP
+		♪https://docs.google.com/spreadsheets/d/1sKAQt_YcIJz2JVh7RWCgb9Z8nnsRX_tO/edit?usp=sharing&ouid=102492150285942258676&rtpof=true&sd=true
+	♦Rebalances units to make more units useable
+		♪https://docs.google.com/spreadsheets/d/1sKAQt_YcIJz2JVh7RWCgb9Z8nnsRX_tO/edit?usp=sharing&ouid=102492150285942258676&rtpof=true&sd=true
+	♦Replaces many vanilla maps with maps designed for competitive PVP
+	♦Adds Sturm as a playable CO
+		♪Unlocked by completing Hard campaign with an S rank
+		♪Adds Sturm to the CO colors room with the option to change colors and toggle alternate costume
+	♦Adds ability to play as clones of COs
+		♪Unlocked by completing Hard campaign
+	♦Adds Sturm, Sturm's CO colors, Clone COs, Commanding soldiers, Black Hole inventions, Campaign Versus category, Survival Versus category, and ??? to Hachi's shop
+	♦Implements Xenesis's Super Force Ranks extra skills
+		♪https://www.warsworldnews.com/wp/hacks/super-force-ranks-by-xenesis/#:~:text=Short%20Description%3A%20Extreme%20customisability%20for,huge%20selection%20of%20new%20ones
+	♦Removed 2-player restriction for DS battles
+	♦Ability to use launched Silo, Lab, Mini-cannon, Crystal, Blocked (megamissile), Blocked (fortress), Volcano, Obelisk, and Cannon in the Design Room
+		☼Unlocked by completing Hard campaign
+	♦Ability to play Campaign and Survival maps in Versus mode
+		♪Unlocked by completing Hard campaign with an S rank
+		♪Unlocked by completing all Champion Survival modes with an S rank
+	♦Adds campaign maps from AW2 campaign
+		♪Unlocked by completing Hard campaign with an S rank
+	♦Adds campaign maps from AW1 campaign
+		♪Unlocked by completing Hard campaign with an S rank
+	♦Adds ability to play as the generic soldiers as COs
+		♪Unlocked by completing Hard campaign
+	♦Various quality of life changes
+		♪Exact unit HP is now displayed in the unit/terrain mini-box instead of a value from 1~10
+		♪Fixed oversight where certain tiles would not play a foot SFX when traversed by foot soldiers
+		♪Adds defense bars to the third page of CO info (work-in-progress)
+		♪The narrator has been changed to the CO selected in the Display room
+			☼No CO and invalid IDs will default to Rachel
+		♪Fixed Sonja's terrain star reduction still reducing terrain stars even with CO abilities/powers disabled (credit: Xenesis's Super Force Ranks)
+		♪Changed sprite direction to be based on team ID instead of faction number (like Days of Ruin)
+		♪CO info now displays exact numbers for unit stats during day-to-day and powers
+		♪Any unit can be placed on any tile in Design Room
+		♪The secondary front can be forced onto the main screen during CPU turns by holding Select before the start of the turn
+		♪Battle animations properly reflect first-strike counters
+		♪Ability to change faction colors during CO select in Versus mode
+		♪Game remembers player/CPU control and team IDs between Versus sessions
+		♪Ability to Save, Quit, view Rules, and view CO Info during matches where only CPU-controlled factions remain
+		♪Proper faction starting coordinates when a faction does not have an HQ
+		♪Ability to further customize matches using level flags
+			☼ability to purchase Oozium, heal from teammate properties, and not refresh units during tag powers
+		♪Improved AI determinations for CO powers, CO swap, and unit actions
+		♪Ability to toggle normal/hard versions of maps in Versus
+		♪Ability to access Battle Setup during Versus mode
+		♪A random CO option to randomize COs in Versus mode
+		♪Load menu command to load saves while on-map
+		♪Scoreboard menu command that displays current score and requirements
+
+To-do:
+	☼Polish Sturm's meteor
+	☼Display graphics for multi-tile terrain in Mapedit mode
+	☼Full-body graphics for the soldiers
+	☼Continue improving AI
+
+Credits:
+	♪Xenesis - 		Super Force Ranks skills
+	♪RadioTails -	Extra overlay code for freespace
+	♪Actual_Krys -	Graphics for Sturm; ruins tileset
+	♪AWBW - PVP maps
+
+
+Known bugs/issues:
+	-certain dialogues may still use Rachel instead of the chosen narrator
+	-the defense bars fail to account for various stat changes
+	-forcing the second screen to the bottom in Means to an End will result in the Grand Bolt looking broken while on the top screen
+	-if multiple factions lose at the same time, all defeat messages will stack
+	-during DS battles, if certain factions are defeated, certain factions will continue having power active even after the start of the next turn
+	-the game may hang during DS battles with more than 2-players
+	-the game will softlock if attempting to select an empty CO slot after changing pages to a page with less COs during CO select in any non-Versus mode
+	-none of the multi-tile terrain have proper graphics in Mapedit mode
+	-all inventions use the same graphic on the top-screen during DS battles
+	-non-standard map sizes will cause the mini-map to not appear correctly in Design Room
+	-campaign map names overflow in Versus mode
+	-Load command transition is rough around the edges
+	-top-screen faction colors initially appear incorrect
+	-star graphics during unit purchasing in Combat mode are incorrect
+	-some graphics are missing/overlap during CO select when there are four players
+
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-second release (1.6.3) {11/09/2024} [bugfix release]: 
+
+Bugfixes:
+	→fixed negative luck increasing the opponent's attack damage if the negative luck drops the final damage below zero
+	→fixed AI sometimes not using powers when it should with Eagle
+	→fixed AI calculating neutral properties as a teammate property if the AI team ID matched that of faction zero while teammate repairs flag is enabled
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-first release (1.6.2) {11/09/2024} [bugfix release]: 
+
+Changelog:
+	→Battle Setup is now enabled for four-player matches
+	→Versus Manual updated to remove reference to four-player limit for Battle Setup
+	→changed top-screen win event in Means to an End to only cause a secondary front victory instead of a main front win when Switch option is on
+	→enabled CPU toggle for Means to an End
+	→enabled CPU toggle for Versus and Survival modes
+	→added Faction Setup menu command
+	→AI now ends its turn sooner after it has moved all its units
+
+Bugfixes:
+	→fixed all factions not being visible during Battle Setup in Versus mode
+	→fixed AW2 and AW4 map categories sharing the same page data during Versus map select
+	→fixed AW2 and AW4 category graphic disappearing while scrolling through categories
+	→fixed AI being able to attack from a tile occupied by an allied unit in certain circumstances
+	→fixed Von Bolt having incorrect stats during Means to an End
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourtieth release (1.6.1) {11/01/2024} [bugfix release]: 
+
+Changelog:
+	→added Setup flags for AW1 and AW2 unit production lists
+	→all factions are visible in Versus mode while Fog of War is active during Battle Setup 
+	→all factions are visible in Mapedit mode
+
+Bugfixes:
+	→fixed coding error that caused AI to miscalculate when to use CO power with Andy
+	→fixed AI causing game to hang when determining whether to use CO power with Sonja
+	→fixed AI causing game to hang when calculating certain unit actions
+	→fixed Jugger gaining +2 range during rain instead of +1
+	→fixed Von Bolt's Super repairing the wrong units
+	→fixed missing pointers for OS soldier that caused the game to hang
+	→fixed Sami not gaining all the correct stat changes during CO power
+	→fixed movement costs not immediately updating when the weather changes
+	→fixed Cycle of Leaf map having too many properties
+	→fixed Island travellers map having too many properties
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-ninth release (1.6.0) {10/27/2024} [bugfix release]: 
+
+Changelog:
+	→added twelve 2P maps
+	→added six 4P maps
+	→added one Fog of War map
+	→added two High Funds maps
+
+Bugfixes:
+	→fixed CO power menu command not being available
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-eighth release (1.5.9) {10/26/2024} [bugfix release]: 
+
+Changelog:
+	→decreased HP repaired from Von Bolt's super
+	→added icons to various menu commands
+	→tweaked descriptions of various menu commands
+	→changed conditions for Capture/Capt* unit commands
+	→decreased Adder's CO power cost
+
+Bugfixes:
+	→fixed Von Bolt's super healing the wrong amount and the wrong faction
+	→fixed game checking incorrect data to determine animations for first-strike counters 
+	→fixed Sturm's day-to-day description
+	→fixed minor typo in Adder's super description
+	→fixed Adder's foot soldiers not gaining stats during powers
+	→fixed Max's units not gaining movement boost during powers
+	→fixed game checking incorrect data when attempting to purchase copters
+	→fixed AI units on properties sometimes freezing in place
+	→fixed bug where the B button stopped working in certain instances after exiting the Scoreboard
+	→fixed Sonja using CO power at any point during her turn
+	→fixed Intel menu command using incorrect description during Battle Setup
+	→tweaked Scoreboard to be more accurate
+	→fixed oversight that caused negative luck to always be halved
+	→fixed incorrect unit placement in Love Lit
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-seventh release (1.5.8) {10/23/2024} [bugfix release]: 
+
+Changelog:
+	→added Scoreboard menu option
+	→added a Manual to System menu
+
+Bugfixes:
+	→fixed certain AI calculations using leftover main front data for secondary front calculations
+	→fixed game checking leftover main front calculations to determine whether first-strike animations should play
+	→fixed Jake's vehicles not gaining stats during powers
+	→fixed game incorrectly transferring AI in Versus when manual AI is selected
+	→fixed Adder's foot soldiers not gaining stats during powers
+	→fixed game crash when attempting to build units
+	→fixed game crash on CO select screen in normal campaign
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-sixth release (1.5.7) {10/20/2024} [bugfix release]: 
+
+Changelog:
+	→one-shotting Black Bombs is no longer impressive
+	→changed several COs
+		☼all changes listed in PlusChanges document
+	→added two COs to Combat mode
+
+Bugfixes:
+	→fixed page toggle buttons appearing after attempting to select a CO in normal campaign
+	→fixed game always checking main front for whether to apply Jugger's defense boost in sandstorm
+	→fixed Jess's power descriptions stating incorrect attack boosts
+	→fixed Von Bolt using his vanilla attack/defense stats
+	→fixed units not losing fuel on neutral properties while team repairs flag is active
+	→fixed oversight in Combat mode that caused Force Ranks data to be filled with miscellaneous data
+	→fixed defense bars displaying incorrect values
+	→fixed third CO power quote appearing twice as likely and sixth CO power quote never appearing
+	→fixed Jugger having a counter-attack bonus during Super CO power
+	→fixed tiling error in Crystal Calamity
+	→fixed tiling error in Cannon Land
+	→fixed CO power names not appearing during Combat mode
+	→fixed tiling errors in Angry Seas
+	→fixed faction 1 on secondary front not receiving funding on turn one
+	→fixed Jugger's Super CO power routine also executing during CO power
+	→fixed Combat CO shop entries using incorrect item names
+	→upgraded Versus timer to close out more windows
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-fifth release (1.5.6) {10/06/2024} [bugfix release]: 
+
+Changelog:
+	→reworked the auto-color function
+		☼color priority is as follows: main CO > second CO > faction ID
+	→changed campaign score format back to vanilla
+	→tweaked AI action phases
+
+Bugfixes:
+	→fixed auto-color function allowing main and second fronts to have different colors
+	→fixed APC able to drop from a tile that already has a unit
+	→fixed Load command causing softlock/hang in campaign mode
+	→fixed portrait error in Frozen Fortress
+	→fixed fog of war in Frozen Fortress
+	→Rachel now correctly states that Black Bombs do 3 HP in Lash's Test
+	→fixed Sturm celebrating in Means to an End when the player loses
+	→fixed portrait error in Omens and Signs lose dialogue
+	→fixed allied units running out of fuel on teammate properties when teammate repairs are enabled
+	→fixed game calculating Lash's +1 terrain star incorrectly
+	→fixed Prairie Dog and Pathfinder move costs not taking effect
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-fourth release (1.5.5) {09/28/2024} [bugfix release]: 
+
+Changelog:
+	→allowed clones to use skills based on the original CO
+	→fixed capture priority weights for capturing
+	→AI will prefer to continue capturing instead of attacking a unit capturing an allied HQ/Lab if the target unit's faction is the same as the HQ/Lab currently being captured
+	→improved AI calculation for determining whether to attack tiles
+
+Bugfixes:
+	→fixed crash in Pincer Strike
+	→fixed AI causing game to hang when calculating certain actions
+	→fixed AI not being able to attack tiles
+	→fixed AI being able to move Black Boats on top of another unit
+	→fixed AI not attacking enemy units capturing allied HQ/Lab with units currently capturing
+	→fixed AI causing game to hang when performing CO swap with no units
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-third release (1.5.4) {07/13/2024} [official release]: 
+
+Changelog:
+	→assigned placeholder graphics to the Death Ray and Laser
+	→the Death Ray and Laser now deal damage
+	→the Death Ray is now targettable and becomes destroyed when its HP is 0
+	→the Laser now becomes destroyed when its HP reaches 0
+	→the Laser now has a range display
+	→the AI will now temporarily skip a unit's action if there is an active ally blocking a target tile
+	→the AI now progresses through its turn faster if it has no units
+	→tweaked AI cost-benefit analysis for indirects
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-second release (1.5.3) {06/16/2024} [bugfix release]: 
+
+Changelog:
+	→fixed AI units in repair mode attacking earlier than they should
+	→fixed AI never attacking Oozium with non-infantry direct-combat units if the attack does not destroy, even when cornered/surrounded
+	→added unit generation for the AW2 factory missions
+	→AI will now attack Oozium during Tag powers during the first CO's turn
+	→added variants of campaign maps from AW4
+	→added Versus category for AW4 campaign maps
+	→Hachi now sells Versus AW4 Campaign category
+	→the Oozium purchase flag now requires Oozium being purchased from Hachi's shop
+	→changed the Black Hole Inventions to also require S-ranking the hard campaign
+
+Bugfixes:
+	→fixed Lash's extra terrain star not applying to air units
+	→fixed Lash's extra terrain star granting +2 instead of +1 star
+	→fixed terrain-to-firepower not working properly
+	→fixed mapedit room music conflicting with scratch RAM for AI profiles
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirty-first release (1.5.2) {06/08/2024} [bugfix release]: 
+
+Changelog:
+	→decreased Megatank movement to 5
+	→reduced star values for Battleship, Cruiser, Submarine, Lander, and Piperunner
+	→removed hardcoded AI checks for whether to produce Piperunners
+	→added purchase values for AI to purchase Piperunners in the appropriate production tables
+	→added purchase values for AI to purchase Oozium in the appropriate production tables
+	→reworked special-case code for AI Piperunner purchasing into general Oozium purchasing code
+	→changed AI to not load units into a transport unit if the transport is low on fuel
+	→tweaked map for Point Stormy
+	→tweaked map for Four Acres
+	→changed enemy CO for Bounty River
+	→added Labs to the AI hardcoded attack priority check for HQs
+	→tweaked AI cost-benefit analysis for indirect units
+	→tweaked day-to-day for Von Bolt 
+	→improved Super CO power for Von Bolt 
+	→changed Lash's +1 terrain star to only apply during powers
+	→changed Sasha's income boost from +100 to +10% of per-property income
+	→changed Jugger's weather change to halve the daycount if the weather is snow
+
+Bugfixes:
+	→fixed Black Bomb description stating incorrect damage amount
+	→fixed text error that resulted in text overflowing the textbox for units with a primary weapon only
+	→fixed tiling error in Ring of Fire (DS) that caused a second volcano to appear
+	→fixed bug causing AI to load units into transports that are out of fuel
+	→fixed incorrect filename for Lash's Land that caused softlock when attempting to load map
+	→fixed campaign scores not saving using the new format
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirtieth release (1.5.1) {05/22/2024} [bugfix release]: 
+
+Changelog:
+	→tweaked CO power values for Andy
+	→increased Jake's attack boost on Plains and granted perfect move costs on Plains during powers
+	→Lash has +1 terrain star
+	→updated Koal's information to include his firepower bonus on Bridges
+
+Bugfixes:
+	→fixed auto-color routine not accounting for clone flag
+	→fixed softlock/crash when AI attempted to perform cost/benefit analyses
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-ninth release (1.5.0) {04/13/2024} [bugfix release]: 
+
+Changelog:
+	→tweaked order of unit actions for AI
+	→Sasha will now only use CO power at the end of her turn
+
+Bugfixes:
+	→fixed game checking incorrect move costs for whether Load command should appear
+	→fixed AI using leftover calculations from the main front when calculating certain actions on the secondary front
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-eighth release (1.4.9) {04/09/2024} [bugfix release]: 
+
+Changelog:
+	→AI turns no longer end when time runs out
+	→swapped order of some Survival maps
+	→Sensei now refers to "central" area instead of "red" area in The Swarm
+	→capturing a Lab now plays the same SFX as an HQ
+
+Bugfixes:
+	→fixed Koal's first-strike counters on Roads being incorrect
+	→fixed game checking incorrect move costs for whether Load command should appear
+	→fixed initial funds parameter not working again
+	→fixed crash related to Combat mode manual
+	→fixed AI not attacking Pipeseam in Crowded Plain
+	→added missing units to High Funds and Fog of War maps
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-seventh release (1.4.8) {03/14/2024} [bugfix release]: 
+
+Changelog:
+	→AI will swap to the CO with less stars remaining if both COs have less than one star remaining and both COs have the same swap priority
+
+Bugfixes:	
+	→fixed not being able to set parameter to maximum and minimum for initial meter and starting rate parameters
+	→fixed not being able to increment/decrement parameter by 5 for initial meter and starting rate parameters
+	→fixed setup flags parameter not allowing 1x increment greater than 7
+	→fixed meters on top-screen shifting if the meter rate caused the amount of meter to exceed 12
+	→fixed weather not changing to snow in Frozen Fortress
+	→fixed Sturm's foot soldiers having perfect move costs while power is not active
+	→fixed campaign category item name in Hachi's shop being too long
+	→fixed drop command always checking Infantry move costs to determine availability
+	→fixed AI failing to properly check for indirect damage when calculating whether to attack pipeseams
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-sixth release (1.4.7) {03/07/2024} [simple release]: 
+
+Changelog:
+	→AI units no longer give up when surrounded/cornered
+	→added a second page to the Versus manual that can be toggled using L/R
+	→added initial CO meter and starting meter rate rule parameters
+	
+Bugfixes:
+	→fixed initial funds and timer parameters not carrying over to match
+	→fixed Javier missing from CO wallpaper room
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-fifth release (1.4.6) {02/19/2024} [bugfix release]: 
+
+Changelog:
+	→AI will now use CO power determination routines to determine if CO power should be used when Super and Tag power flags are disabled
+
+Bugfixes:
+	→fixed AI control during Battle Setup
+	→fixed AI not accounting for indirect damage when calculating whether to not attack Pipeseam
+	→fixed incorrect unit placements in LRI
+	→fixed Koal having an attack boost on Shoal instead of Bridge
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-fourth release (1.4.5) {02/14/2024} [bugfix release]: 
+
+Bugfixes:
+	→fixed missing unit placements for The Ocean Blue (hard)
+	→fixed AI control during Battle Setup [faulty implementation]
+	→fixed game crash during campaign missions related to AI
+	→fixed Hachi shop texts appearing in Survival
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-third release (1.4.4) {02/13/2024} [bugfix release]: 
+
+Bugfixes:
+	→fixed bug causing game to crash when adding funds earned after a battle
+	→patched oversight causing all campaign categories to share cursor memory
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-second release (1.4.3) {02/09/2024} [official release]: 
+
+Changelog:
+	→added new setup flag that shows score on results screen in Versus mode
+	→EXP and funds for Hachi's shop obtained are always set to 0 in Versus mode
+	→the background for Hachi's shop will always be Hachi's background
+	→Hachi has new dialogue for entering his shop
+
+Bugfixes:
+	→fixed some tiling errors on the AW1 campaign maps
+	→fixed timer and starting funds using incorrect data if the game is saved then loaded during Battle setup in Versus mode
+	→fixed missing graphics for Black Hole soldier
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-first release (1.4.2) {02/03/2024} [official release]: 
+
+Changelog:
+	→added campaign maps from AW1
+	→added Versus category for AW1 campaign maps
+	→Hachi now sells Versus AW1 Campaign category
+	→Hachi now sells Versus AW2 Campaign category
+	→split Versus Campaign categories into their own flags
+	→reduced property cap to 80 in Design room
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twentieth release (1.4.1) {02/02/2024} [bugfix release]: 
+
+Bugfixes:
+	→fixed AW2 campaign category being unlocked by default
+	→fixed certain Versus categories being locked when they should not be
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Nineteenth release (1.4.0) {02/02/2024} [official release]: 
+
+Changelog:
+	→added Switch menu command
+	→Hachi re-opens his shop
+	→unlocked many maps be default
+	
+Bugfixes:
+	→fixed oversight causing CO meter to not flash on top-screen if flag 01 was disabled
+	→fixed Max Strikes (hard) having incorrect unit placements
+	→removed duplicate volcano from Cape Splinter
+	→fixed Jugger missing CO power effect
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighteenth release (1.3.9) {01/28/2024} [official release]: 
+
+Changelog:
+	→AI now uses swap priorities for when meters are full if both COs have one star or less remaining
+	→changed AI swap priorities for Sami and Sasha from a static value to a conditional value
+	→tweaked AI calculations for when CO power should be used for some COs
+
+Bugfixes:
+	→fixed Versus Manual displaying incorrect texts
+	→fixed several Survival mode texts being incorrect
+	→fixed crash when AI attempted to calculate Javier's swap priority
+	→fixed oversight causing CO meter to not flash on top-screen if flag 01 was disabled
+	→fixed Load menu command being useable even when the previous save was not on-map
+	→fixed Load menu command not being useable when it should
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventeenth release (1.3.8) {01/27/2024} [official release]: 
+
+Changelog:
+	→changed skill names of APC Boost and APC Guard to Hot Wheels and Insurance
+	→greatly increased AI attack priority for units capturing properties
+	→restructured AI action phases
+	→fixed AI compulsively attacking Pipeseam/inventions
+	→tweaked main menu descriptions
+	→added new menu command
+
+Bugfixes:
+	→fixed AI crashing game when calculating whether to use CO power with Drake	
+	→fixed oversight that allowed AI to load copters into other faction Cruisers/Carriers
+	→fixed oversight where AI would not prioritize units capturing Labs
+	→fixed Black Hole soldier missing texts
+	→fixed game hanging on AW2 factory maps
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixteenth release (1.3.71) {01/21/2024} [bugfix release]: 
+
+Bugfixes:
+	→fixed crash related to battle animations
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifteenth release (1.3.7) {01/21/2024} [bugfix release]: 
+
+Changelog:
+	→the game is less impressed when Megatanks one-shot units
+
+Bugfixes:
+	→fixed crash related to AI calculations
+	→fixed crash related to team repairs flag
+	→fixed missing AI profile for Nell
+	→fixed clones using incorrect HP orb palette during battle animations
+	→fixed all COs using the default AI profile
+	→fixed game always being impressed whenever a submerged Submarine destroyed a unit
+	→fixed oversight causing game to write map played flag to wrong location
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourteenth release (1.3.6) {01/20/2024} [quick release]: 
+
+Changelog:
+	→game now reads and sets flag for maps played at a different location for maps past the Design maps
+	→AI now takes into account the team repairs flag
+	
+Bugfixes:
+	→fixed AI using CO power when it should not
+	→fixed allowing skill selection on random CO
+	→added missing River table for Design room
+	→fixed random CO causing crash
+	→fixed random CO icon using incorrect palette
+	→fixed pipeline using incorrect palette in battle animations
+	→fixed Com tower description being too long
+	→fixed missing AI profile for Drake
+
+	
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirteenth release (1.3.5) {01/19/2024} [official release]: 
+
+Changelog:
+	→further increased swap priority of Olaf during snow
+	→tweaked various AI calculations related to swapping and power use
+	→added "random CO" that randomly selects a CO at match start for Versus
+	→restored ability for AI to use Super CO powers when Eagle is back CO
+	→changed meters to display star sizes based on which flags are enabled
+	→flag 02 now caps star gain to number of stars required for CO power
+
+Bugfixes:
+	→fixed team repairs checking incorrect level flag
+	→fixed oversight that caused AI Colin to use CO power when he should not
+	→fixed AI using main front CO IDs when determining whether to use CO power on the secondary front
+	→fixed potential crash related to AI's determination to use powers with Drake
+	→fixed AI using main screen faction data in determining Com tower quantity for Javier's swap priority on the secondary front
+	→fixed AI still using tag with Eagle as back CO for certain COs with unique power checks
+	→fixed oversight that resulted in some COs using the wrong unit action queue ID for power determinations
+	→fixed AI attacking when it should finish captures instead
+	→fixed CO meter stars not flashing if tags are disabled
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twelfth release (1.3.4) {01/15/2024} [quick release]: 
+
+Changelog:
+	→upgraded Means to an End
+	→menu window for new campaign and new combat bring up difficulty select window even if hard options have not been unlocked
+
+Bugfixes:
+	→fixed some incorrect CO descriptions
+	→fixed AI crashing game when attempting to calculate chaos volcanot coordinates
+	→fixed Hard Campaign option checking whether there is an active War Room match to determine if the option should be available on the main menu
+	→fixed Combat manual dislaying Rules instead of Combat as the page header
+	→fixed auto-color function allowing multiple factions to have the same color
+	→fixed missing unit placements in POW Rescue
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eleventh release (1.3.3) {01/14/2024} [quick release]: 
+
+Changelog:
+	→pipeline will no longer appear during Piperunner animation if the Piperunner is not on a terrain that would contian a pipeline
+	→added several maps to the 3P and 4P categories
+	→changed order of some Survival maps
+	→when calculating technique score, individual unit produced count is capped at 30
+
+Bugfixes:
+	→fixed Piperunner bullets hitting elevated Infantry as if they were aerial units
+	→fixed several 3P and 4P maps that were missing unit placements
+	→fixed oversight causing game to crash when AI calculates whether to swap COs
+	→fixed AI swapping when it should not be
+	→fixed incorrect map for Rain of Pain
+	→fixed AI corrupting memory when it attempts to calculate chaos volcano magma coordinates
+	→fixed starting selected terrain in Mapedit not being Plains
+	→fixed incorrect maps for Sensei's Return
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Tenth release (1.3.0) {01/11/2024} [official release]: 
+
+Changelog:
+	→added manual Pipeseam tiles to third terrain page in Mapedit
+	→added level flag for banning AI from attacking Pipeseam
+	→foot soldiers in mountains are now considered elevated during battle animations
+	→improved compatability for multi-tile-wide rivers in Design Room
+	→Cruiser secondary weapon now points downwards when attacking lower-elevation units
+	→improved AI swap routine for when Eagle is a CO
+	→AI no longer buys units during tag with lead CO if Colin is the back CO
+
+Bugfixes:
+	→fixed the tiling errors on the AW2 campaign maps
+	→fixed chaos volcano not existing
+	→fixed missing unit placements for Silo Scramble (hard)
+	→fixed Submarine (submerged) being considered a ground unit during battle animations
+	→fixed missing unit placements for Toy Box (hard)
+	→fixed Cruisers being unable to target inventions and Pipeseams
+	→fixed Cannon Land and Silo Sweep maps being incorrect
+	→fixed AW2 campaign maps not displaying property counts
+	→fixed maps for Neverending War being incorrect
+	→fixed Rain of Pain
+	→fixed unit placements for Aircraft hunt being incorrect
+	→fixed Prarie Dog and Pathfinder persisting even when not equipped
+	→fixed AI always capturing during the initial foot soldier action phase
+	→fixed crash when AI had to perform unit movement calculations while Koal was fielded
+		☼AI currently will fail to account for Koal's first-strike counters while on Roads
+	→fixed Drop command being available in situations it should not be
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Nineth release (1.2.5) {01/03/2024} [quick release]: 
+
+Changelog:
+	→changed Versus palette main color to dark blue
+	→changed War Room palette main color to yellow
+	→Stealth and Submarine now start hidden when purchased
+	→added setup flags rule parameter
+	→added campaign maps from AW2
+	→Hachi's shop is temporarily closed
+	→updated the Versus manual
+	
+Bugfixes:
+	→reverted Sturm's meteor determination back to previous
+	→fixed bug causing game to crash when scrolling left or right at edge of screen during skill selection
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighth release (1.2.0) {12/25/2023} [official release]: 
+
+Changelog:
+	→when the timer runs out in Versus mode, the current faction's turn ends
+	→split level flag 001 into three separate flags (flags 001, 002, 004)
+	→changed flag values for buyable Oozium (=128), team repairs (=016), and no-refresh tags (=032)
+	→increased unit production list size
+	→changed order of units in production list
+	→Helipad skill now also allows production of T-copters
+	→scrolling now wraps around horizontally on the unit production list
+	→various War Room maps that were removed have been re-added
+	→changed maximum parameter for Timer to 6000 in Versus
+	→if Super and Tag powers are disabled, AI will be able to use CO powers even if a CO is normally banned from using CO power
+	
+Bugfixes:
+	→fixed check for whether a unit can be dropped
+	→fixed War Room records being saved incorrectly when a new record replaces an old one
+	→fixed initial funds and timer displaying incorrect values on the Rules screen during matches 
+	→fixed secondary CO using front CO's AI during DS matches instead of the secondary CO's AI when AI is set to manual AI in Versus
+	→fixed inability to highlight last two parameters while viewing Rules during a match
+	→fixed incorrect rule parameter descriptions when viewing rule parameters during a match
+	→fixed Versus manual displaying hexadecimal values for level flags instead of decimal
+	→fixed duplicate volcanoes appearing in Ring of Fire
+	→fixed the main menu description for Manual (Versus) using the Manual (Combat) description
+	→fixed timer parameter not converting correctly in Versus
+	→fixed Dual Strike texts being incorrect
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventh release (1.1.0) {12/02/2023} [official release] "System upgrade β - Versus": 
+
+Changelog:
+	→AI will no longer load foot soldiers into APC if the APC is out of fuel
+	→AI will drop foot soldiers from APC if the APC is out of fuel even if the target location has not been reached
+	→AI will no longer attack with indirects if the damage dealt is worse than the potential damage received
+	→added one map to Time Survival
+	→added one map to Turn Survival
+	→removed the -/+ from Fog of War and High Funds map names
+	→added "no refresh on tag" level flag
+	→added auto- and random-set AI options in Versus mode
+	→added ability to set minimum daily income to 0 funds
+	→daily income now wraps around
+	→CO meters longer than 12 stars will now shift stars after the 12th to a second row instead of continuing across the same row on the top screen
+	→increased maximum daycount to 65535
+	→added starting funds and timer parameters to rules select screen
+	→added Manual under Versus in the main menu
+	→added ability to increment/decrement rule parameters by 5x using X/Y
+	→added ability to set rule parameters to minimum/maximum using L/R
+	→changed coordinate determination for Sturm's Super CO power
+	→changed Super CO power name and description for Sturm
+	→game now displays team if there is more than one player on rules screen in Versus mode
+	→added ability to manually set AI per-faction per-front in Versus
+	→faction colors are automatically set for player factions based on lead CO during non-Versus modes
+
+Bugfixes:
+	→fixed Piperunner movement costs being incorrect
+	→fixed top-screen daycount not shifting the day graphic to account for more than four digits for daycount
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixth release (1.0.5) {11/17/2023} [bugfix patch]: 
+
+Changelog:
+	→changed time limit in Reclaim the Skies
+	→changed AI determination for when Colin uses CO power and Super power
+	→the music set for the main screen now carries over into Versus, War Room, and Survival
+	→changed movement costs for Piperunner slightly
+	→changed Black Bombs to deal 30 damage
+	→changed Jugger's CO meter
+
+Bugfixes:
+	→fixed Green Earth soldier appearing during world map cutscene for Mission 4
+	→fixed bug that allowed dropping ground units from Sea tiles
+	→fixed bug that would cause the Design Room to always be silent
+	→fixed Sasha's Super not granting the correct amount of funds
+	→fixed Jugger having extra counter-attack damage during powers
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifth release (1.0.4) {11/14/2023} [bugfix patch]: 
+
+Changelog:
+	→changed map perimeter tiles to use fog of war palette if there is fog of war
+	→improved AI unit action queue for fog of war
+	→added ability to set main menu and Design Room songs using the Sound Room
+
+Bugfixes:
+	→fixed AI being able to swap while powers are disabled even if there is no tag partner to swap to
+	→fixed bug that caused some continue options to disappear if there is no active match for that mode
+	→fixed bug that caused text and textboxes to become permanently invisible after entering the continue campaign menu
+	→fixed bug where the game would crash on map start or between faction transitions
+	→fixed Ooziums always displaying low fuel icon
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourth release (1.0.3) {11/12/2023} [bugfix patch]: 
+
+Changelog:
+	→changed how scores for Survival mode are stored and interpreted
+	→changed position of the L/R buttons on the CO select screen
+	→shifted position of CO windows on CO select screen
+	→changed appearance of the mode select window
+
+Bugfixes:
+	→fixed snow movement costs persisting even after the snowfall ends
+	→fixed oversight that would result in a softlock when winning with Yellow Comet or Black Hole soldiers
+	→fixed L/R buttons not re-appearing after selecting a CO while skills are available
+	→fixed oversight that allowed selecting multiple of the same CO if that CO is a back CO or if a CO is a clone CO
+	→fixed error that caused Sturm's and Von Bolt's powers to not be correct
+	→fixed movement costs not applying during static weather
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Third release (1.0.2) {11/11/2023} [bugfix patch]: 
+
+Bugfixes:
+	→fixed game checking incorrect flags for determining whether to display pages three and four during Campaign/War Room/Survival CO select
+	→fixed page toggle button appearing after backing out of CO info while selecting a CO
+	→attempted to fix remaining issues with alternate starting coordinates code
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Second release (1.0.1) {11/11/2023} [bugfix patch]: 
+
+Bugfixes:
+	→fixed oversight causing certain Versus categories to not appear properly
+	→fixed oversight allowing commanding soldiers to be available even when not unlocked in Versus mode
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+First release (1.0.0) {11/11/2023} [official release] ""Initial" release": 
+
+Changelog:
+Hack adapted from "Advance Wars- Dual Strike w/ Sturm"
+	→changed effects, powers, and statistics for COs
+	→changed unit statistics
+	→changed unit weapon names and various description texts
+	→changed AI determination for CO swap
+	→changed AI determination for using CO power
+	→improved AI unit action queue
+	→replaced many vanilla maps with PVP maps
+	→replaced wastelands tileset palette with Actual_Krys's ruins tileset
+	→added ability to use level flags
+	→changed snow to increase move costs like AW2
+	→changed order of movement costs on top screen
+	→changed saved score structure for War Room
+		☼all CO IDs are now saved
+		☼the daycount caps at 127 days
+	→tweaked some War Room maps to be more difficult
+	→changed how game determines which tile to use for map perimeters
+	→increased Champion Money Survival parameter from 600000 to 9999999
+	→increased Champion Turn Survival parameter from 120 to 999
+	→increased Champion Time Survival parameter from 30:00 to 99:59
+	→all maps on the second 2 COs page in War Room have been temporarily removed
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifteenth release (1.4.2) {11/11/2023} [bugfix patch]:
+
+Changelog:
+	→reverted maximum map size to 40x40 in Design Room
+		☼dimensions are now capped when their product is less than or equal to 600
+	→changed Campaign Versus category unlock requirement to completing Hard campaign with an S rank
+
+Bugfixes:
+	→fixed bug where every faction on the second front would instantly lose
+	→fixed oversight that caused the alternate starting coordinates to never take effect
+	→fixed bug where the partner CO would not scroll down past no CO in Versus
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourteenth release (1.4.1) {11/05/2023} [bugfix patch]:
+
+Changelog:
+	→changed coding so the Grand Bolt appears correctly in other modes
+	→reverted maximum map size to 30x30 in Design Room
+
+Bugfixes:
+	→fixed bug where Super and Tag powers were always banned
+	→fixed oversight where rubble plain tiles were treated as Pipes in Design Room
+	→fixed oversight where purchasing "Survival" from Battle Maps unlocked the Versus Campaign category instead
+	→fixed oversight where purchasing "Campaign" from Battle Maps unlocked the Versus Survival category instead
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirteenth release (1.4.0) {11/05/2023} [official release] "Shop and army promotions":
+
+Changelog:
+	→increased maximum map size to 40x40 in Design Room
+	→added ability to play as the generic soldiers from each army
+	→added ability to play Campaign maps in Versus mode
+	→added ability to play Survival maps in Versus mode
+	→added commanding soldiers, Black Hole inventions, Campaign Versus category, and Survival Versus category to Hachi's shop
+
+Bugfixes:
+	→fixed bug where attempting to increase map size in Design Room crashes the game
+	→fixed bug where attempting to place alternate Plain tiles in Design Room placed incorrect tiles
+	→fixed bug where some auto-tiling did not update correctly
+	→fixed some text errors with Hachi's shop dialogue
+	→fixed bug where viewing description for Surrender causes graphical glitches
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twelfth release (1.3.3) {10/31/2023} [quick release]:
+
+Changelog:
+	→added north-facing Cannon to Design Room
+	→added two alternate pages of terrain in Design Room
+		☼pages toggled using the L and R buttons
+	→changed button from L/R to Select for toggling between terrain and unit
+	→increased maximum property count from 60 to 99 in Design Room
+	→changed location of surplus unit and property counts in Design Room
+	→added rudimentary count for inventions placed in Design Room
+	→added ability to change map size in Design Room
+		☼up/down changes Y-size, left/right changes X-size
+		☼lower and upper limits: 16x12 to 30x30
+	→changed routine for determining faction starting coordinates
+		☼coordinate priority: HQ -> Lab -> first unit -> Base -> Airport -> Port -> center of map (rounded down)
+
+Bugfixes:
+	→fixed Sami's theme playing when attempting to place a property on the same property in Design Room
+	→fixed game not updating property count if overwritten by the extra tiles on larger terrain
+	→fixed Blocked (fortress) not playing the correct sound effect when placed
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eleventh release (1.2.5) {10/07/2023} [bugfix patch]:
+
+Changelog:
+	→increased the AI swap priority for Sturm
+	→Rain Dance, Flurry, and Desert Lord now scale in duration with power
+		☼regular power = 1 turn, super power = 2 turn, doubles with Empowerer
+	→extended the window for Black Hole in the CO colors room
+	→moved Sturm to the front of the Black Hole COs in the CO colors room
+	
+	
+Bugfixes:
+	→fixed oversight where COs would have a large number of skills when Powers are toggled to off
+	→fixed Display wallpaper room not having enough boxes and using incorrect names for the special wallpapers
+	→fixed oversight causing Von Bolt's skills to not save between sessions
+	→fixed bug where faction properties and units would change factions after saving
+	
+	
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Tenth release (1.2.0) {10/07/2023} [official release] "Rise of the clones":
+
+Changelog:
+	→added ability to select teams for 2-player matches
+	→clone COs now appear correctly during CO select in all modes
+	→multiple of the same clone can now be selected per faction
+	→added ability to save, quit, view rules, and view CO info during matches where only CPU factions remain
+			☼hold: Start (save), B (quit), L(rules), and R(CO Info) to cause prompts or load screens at the start of the next faction's turn
+			
+Bugfixes:
+	→fixed game allowing 2-player matches with both factions being on the same taem
+	→fixed game softlocking after a faction loses
+	→fixed game loading incorrect CO after changing between maps with different numbers of players
+	→fixed game not properly selecting clone COs upon cycling up during Versus CO select
+	→fixed game forgetting clone status when transitioning to CO select screen from map during battle preparations
+	→fixed game checking Yellow Comet property count incorrectly for determining number of factions for Mapedit maps
+	→fixed game softlocking whenever a faction is defeated
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninth release (1.1.0) {10/06/2023} [official release] "System upgrade α":
+
+Changelog:
+	→added Crystal to Mapedit mode
+	→removed 2-player map restriction for DS battles
+	→game now loads/saves team IDs and player/CPU control per faction in Versus mode
+	→changed team IDs for various War room, Survival, and Campaign maps
+	→changed sprite colors for various War room and Survival maps
+
+Bugfixes:
+	→fixed game incorrectly determining player count when loading multiple maps in Mapedit mode
+	→fixed incorrect button graphic appearing on History screen
+	→fixed secondary front factions remaining even after losing on the main front
+	→fixed game checking incorrect front during DS battles for whether faction 1 is still active
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eigth release (1.0.7) {09/30/2023} [bugfix patch]:
+
+Bugfixes:
+	→fixed clone COs not appearing
+	→fixed incorrect button graphic appearing on CO select screen
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventh release (1.0.6) {09/30/2023} [bugfix patch]:
+
+Changelog:
+	→HQs are no longer required for a Mapedit map to be considered playable
+		☼factions require either one unit or one production property
+		☼Help description in Mapedit has been updated to reflect this change
+	→added ability to place any unit on any tile in Mapedit
+	→added ability to use Mini-cannons in Mapedit
+		☼accessible by holding Select while opening the terrain menu
+	
+Bugfixes:
+	→fixed incorrect button graphic appearing on some screens
+	→fixed all non-neutral properties becoming faction 1 properties on Mapedit maps
+
+	
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixth release (1.0.5) {09/29/2023} [bugfix patch]:
+
+Changelog:
+	→added an on-screen button to toggle pages for CO select screen
+	→changed around button locations on CO select screen
+	→added ability to place any unit on any tile in Mapedit
+	→added ability to use Labs and Silo (launched) in Mapedit
+		☼Hold R while selecting HQ and Silo, respectively to select
+	→added ability to toggle pages using L and R buttons
+	→changed button to access CO info on CO select screen from R to Select
+	→the on-screen L and R buttons in War Room now say "PAGE" above them
+	
+Bugfixes:
+	→fixed bug where game would softlock when attempting to purchase a unit when unit cap was hit
+	→fixed oversight where Icebreaker and Sopping Wet would get quadrupled with Empowerer	
+	→fixed skill descriptions for Prariedog and Pathfinder being swapped
+	→fixed oversight where Olaf would still get penalized during snow
+	→fixed selected narrator not appearing in Mapedit
+	→fixed oversight that allowed placing any unit on any tile in Mapedit
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifth release (1.0.4) {09/20/2023} [bugfix patch]:
+
+Changelog:
+	→removed code that forced specific faction colors overriding the altered faction colors set during CO select for Edit map maps
+
+Bugfixes:
+	→attempted to fix bug where game would hang during AI turns during sandstorm
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourth release (1.0.3) {09/17/2023} [bugfix patch]:
+
+Changelog:
+	→pressing L and R toggles faction colors on Versus CO select screen
+	→added unique quotes for Von Bolt during the final campaign mission
+	→changed layout of buttons on CO select screens
+	→added an extra on-screen button for the alternate skill list
+
+Bugfixes:
+	→fixed bug where AI would hang during sandstorms
+	→fixed bug that would cause the game to hang during rainstorms
+	→fixed incorrect portraits appearing during the epilogue
+	
+	
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Third release (1.0.2) {09/13/2023} [bugfix patch]:
+
+Bugfixes:
+	→fixed game crashing when attempting to view indirect range on DS battles during sandstorm
+	→fixed game changing player COs to clone Hachi after the first map in any Survival
+	→fixed bug where game would hang when attempting to view a unit's vision during rain
+	→attempted to fix oddity where the game was saving EXP for force ranks incorrectly
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Second release (1.0.1) {09/11/2023} [bugfix patch]:
+
+Bugfixes:
+	→fixed game not correctly determining whether a CO should be able to build B-Copters during campaign
+	→attempted to fix incorrect portraits loading during certain campaign missions
+
+Known bugs/issues:
+	-Sturm does not have a meteor
+	-certain dialogues may still use Rachel instead of the chosen narrator
+	-the defense bars fail to account for various stat changes
+	-clone COs will display non-clone colors on CO select screens
+	-clone COs may revert during CO select
+	-forcing the second screen to the bottom in Means to an End will result in the Grand Bolt looking broken while on the top screen
+	-navigating left/right on the outermost columns on skill select screen may cause a crash?
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Initial release (1.0.0) {09/10/2023} [official release] "First release":
+
+Changelog:
+	→added Sturm, Sturm's colors, and ability to use Clone COs
+	→changed Trifecta Isles, Ocean Prison, Narrow Ridge, Deadlakes to be unlocked by default
+	→added Xenesis's Super Force Ranks skills
+	→changed terrain/unit mini-box display to display three digits for HP
+	→fixed foot soldier SFX oversight
+	→added defense bars to third screen of CO info
+	→changed narrator to be CO selected in Display room
+	→fixed Sonja's terrain reduction applying when abilities/powers are disabled
+	→changed sprites to face a direction based on team ID
+	→fixed map sprite for Missiles missing several pixels in some frames
+	→added Sturm to the CO colors room, wallpaper room, Gallery, and Sound Room
+	→changed CO order for CO select and wallpapers
+	→added different CO lists, which can be accessed by pressing L+R during CO select in Campaign, War Room, and Survival
+		☼different CO lists will have different window colors
+	→changed internal IDs for certain Black Hole COs
+	→added a failsafe to prevent softlocks if attempting to view skills while having more than four skills equipped
+	→added a failsafe to prevent softlocks if there are more than eight movement cost groups for the game to display
+	→added extra dialogue for Hachi to gossip when entering Battle Maps
+	→fixed battle animations not properly reflecting first-strike counters
+	→added ability to watch the secondary front during CPU turns on the main screen during DS battles
+	→possibly other things I forgot
+	
+Known bugs/issues:
+	-Sturm does not have a meteor
+	-certain dialogues may still use Rachel instead of the chosen narrator
+	-the defense bars fail to account for various stat changes
+	-clone COs will display non-clone colors on CO select screens
+	-clone COs may revert during CO select
+	-forcing the second screen to the bottom in Means to an End will result in the Grand Bolt looking broken while on the top screen
+
+
+============================================================================
+EgalLau37's cheat code compendium:
+
+Enable Xenesis's CO auto-unlocker:
+	023E48EC E1A03003
+	
+Enable CO colors unlocker:
+	023E48F4 E1A03003
+
+Enable Xenesis's CO auto-leveler (sets all COs to at least rank 10):
+	023E48FC E1A03003
+
+Enable map unlocker:
+	023E4904 E1A03003
+
+Enable unlockables unlocker:
+	023E490C E1A03003
+
+Recieve free funds to use in Hachi's shop:
+	023E4914 E1A03003
+
+Replace Sonja's theme with her Re-Boot Camp version:
+	023D9B34 00000104
+
+Change wallpaper and narrator:
+	2229072C 000000XX
+		XX = ID of CO to change to
+
+CO list:
+00 - No CO
+01 - Nell
+02 - Andy
+03 - Max
+04 - Olaf
+05 - Sami
+06 - Grit
+07 - Kanbei
+08 - Sonja
+09 - Eagle
+0A - Drake
+0B - Sturm
+0C - Flak
+0D - Lash
+0E - Adder
+0F - Hawke
+10 - Hachi
+11 - Colin
+12 - Jess
+13 - Sensei
+14 - Jake
+15 - Rachel
+16 - Sasha
+17 - Javier
+18 - Grimm
+19 - Jugger
+1A - Koal
+1B - Kindle
+1C - Von Bolt
+
+
