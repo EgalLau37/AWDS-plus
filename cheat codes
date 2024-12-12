@@ -1,0 +1,57 @@
+EgalLau37's cheat code compendium:
+
+Enable Xenesis's CO auto-unlocker:
+	023E48EC E1A03003
+	
+Enable CO colors unlocker:
+	023E48F4 E1A03003
+
+Enable Xenesis's CO auto-leveler (sets all COs to at least rank 10):
+	023E48FC E1A03003
+
+Enable map unlocker:
+	023E4904 E1A03003
+
+Enable unlockables unlocker:
+	023E490C E1A03003
+
+Recieve free funds to use in Hachi's shop:
+	023E4914 E1A03003
+
+Replace Sonja's theme with her Re-Boot Camp version:
+	023D9B34 00000104
+
+Change wallpaper and narrator:
+	2229072C 000000XX
+		XX = ID of CO to change to
+
+CO list:
+00 - No CO
+01 - Nell
+02 - Andy
+03 - Max
+04 - Olaf
+05 - Sami
+06 - Grit
+07 - Kanbei
+08 - Sonja
+09 - Eagle
+0A - Drake
+0B - Sturm
+0C - Flak
+0D - Lash
+0E - Adder
+0F - Hawke
+10 - Hachi
+11 - Colin
+12 - Jess
+13 - Sensei
+14 - Jake
+15 - Rachel
+16 - Sasha
+17 - Javier
+18 - Grimm
+19 - Jugger
+1A - Koal
+1B - Kindle
+1C - Von Bolt
