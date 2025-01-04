@@ -1,0 +1,19 @@
+Known bugs/issues:
+	-certain dialogues may still use Rachel instead of the chosen narrator
+	-the defense bars fail to account for various stat changes
+	-forcing the second screen to the bottom in Means to an End will result in the Grand Bolt looking broken while on the top screen
+	-if multiple factions lose at the same time, all defeat messages will stack
+	-during DS battles, if certain factions are defeated, certain factions will continue having power active even after the start of the next turn
+	-the game may hang during DS battles with more than 2-players
+	-the game will softlock if attempting to select an empty CO slot after changing pages to a page with less COs during CO select in any non-Versus mode
+	-none of the multi-tile terrain have proper graphics in Mapedit mode
+	-all inventions use the same graphic on the top-screen during DS battles
+	-non-standard map sizes will cause the mini-map to not appear correctly in Design Room
+	-campaign map names overflow in Versus mode
+	-Load command transition is rough around the edges
+	-top-screen faction colors initially appear incorrect
+	-star graphics during unit purchasing in Combat mode are incorrect
+	-some graphics are missing/overlap during CO select when there are four players
+	-saving after Battle Setup with four players can cause the game to hang
+	-opening the damage chart causes the mini-box graphics to glitch out graphically
+
