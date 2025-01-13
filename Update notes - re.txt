@@ -1,10 +1,41 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-second release (1.6.3) {11/09/2024} [bugfix release]: 
+Fourty-second release (1.6.3) {01/12/2025} [bugfix release]: 
+
+Changelog:
+	→implemented an on-map unit damage chart
+	→tweaked and colored effectiveness icons
+	→added unique sprites for Megatank for battle animations for each other faction
+	→added new animations for Mech firing primary weapons at enemies at lower elevations
+	→added missing animations for Recon, Tank, and Medium Tank for firing secondary weapons against elevated enemies
+	→changed AI power determination for Hawke back to the vanilla formula
+	→added basic AI attack queue for direct-attack and capture units
+	→reworked AI additional indirect-attack value exchange calculation
+	→tweaked AI calculation for direct-attacks and indirect-attacks for attacking tiles
+	→AI direct-attack units with right-bit 0x4 at AI byte 0xC can now act earlier
+	→reworked AI capture initiation capture weights
+		☼scaled capture weights up 4x
+		☼non-neutral properties have increased weight
+	→changed how the AI sorts the unit ID list for direct attack units
+		☼AI sorts by lowest value during the start of the turn
+		☼AI sorts by greatest value during the middle of the turn
+		☼AI sorts by movement/vision (without/with Fog of war)
+	→changed how the AI sorts the unit ID list for capture units
+		☼AI sorts by highest HP value for initiating captures
+		☼AI sorts by lowest value during the start of the turn
+		☼AI sorts by greatest value
+	→added unique sprite for Stealth for Black Hole for battle animations
 
 Bugfixes:
 	→fixed negative luck increasing the opponent's attack damage if the negative luck drops the final damage below zero
 	→fixed AI sometimes not using powers when it should with Eagle
 	→fixed AI calculating neutral properties as a teammate property if the AI team ID matched that of faction zero while teammate repairs flag is enabled
+	→fixed oversight that caused the AI to sometimes not move units or use CO powers
+	→fixed RAM conflict that caused certain unrelated routines to change the value for Mapedit page ID
+	→fixed RAM conflict that caused certain unrelated routines to change the value for Mapedit song ID
+	→fixed AI using incorrect routine to determine whether to attack tiles with indirect-attack units
+	→fixed oversight that allowed the AI to attack from an occupied tile with units in repair mode
+	→fixed AI Submarine/Stealth acting earlier than intended
+	→fixed minor bug relating to CO power music
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
