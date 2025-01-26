@@ -1,4 +1,26 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-third release (1.6.4) {01/26/2025} [bugfix release]: 
+
+Changelog:
+	→tweaked AI unit sorting for continuing captures
+	→AI will no longer join units while Tag is active and Andy, Hawke, or Von Bolt is the back CO
+	→fixed AI not able to load/drop Piperunner from transport units
+	→changed title screen graphic to match game name
+	→the game now skips the intro animation on boot-up
+	→the game now skips the "Nintendo" and "Nintendo Presents/Developed by Intelligent Systems" screens
+	→changed History room texts
+	→tweaked AI determination for joining units
+
+Bugfixes:
+	→fixed missing pixels in Flak's negative battle reaction (regular, alternate)
+	→fixed inconsistencies in Jugger's graphics (regular)
+	→fixed Jake losing some hair when upset in battle animations (alternate)
+	→fixed Kindle (alt) missing one line of pixels/Jugger (alt) having an extra line of pixels during Tag intro
+	→fixed AI Submarine/Stealth acting earlier than intended
+	→fixed oversight that caused the AI to not increase capture priority based on distance
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fourty-second release (1.6.3) {01/12/2025} [bugfix release]: 
 
 Changelog:
