@@ -1,4 +1,29 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-forth release (1.6.5) {02/16/2025} [feature release]: 
+
+Changelog:
+	→replaced Sturm's graphics with new custom graphics by [Sturm Magma Ocean]
+	→changed Sturm's alternate colors
+	→tweaked Sturm's alternate costume to align with the new colors
+	→added the ability to set a custom unit cap from 1 to 64
+	→added unique power determination routines for Max, Sami, Grit, Jess, Sensei
+	→the AI also now checks for whether to use power before using each unit
+	→the top-screen info sprites for Megatank have been updated to closer reflect their appearances during battle animations 
+	→fixed some missing pixels on Andy's graphics (alternate)
+	→fixed some incorrect pixels on Max's graphics (alternate)
+	→fixed some missing shading on Blue Moon Rockets info sprite 
+	→fixed Blue Moon APC info sprite using an Orange Star soldier sprite
+	→the top-screen info sprite for Black Hole Stealth has been updated to closer reflect its appearance during battle animations 
+	→added a third page to the Versus manual (CPU-only matches)
+	→re-added the AW2 cartridge maps
+
+Bugfixes:
+	→fixed Design Room on main menu flipping to the Battle Menu instead of the System Menu
+	→fixed potential inconsistencies with map unlocks during map select
+	→fixed the non-AW2 cartridge maps not displaying locked entries if locked
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fourty-third release (1.6.4) {01/26/2025} [bugfix release]: 
 
 Changelog:
