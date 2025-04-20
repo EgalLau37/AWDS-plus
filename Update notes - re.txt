@@ -1,5 +1,26 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-forth release (1.6.6) {04/10/2025} [bugfix release]: 
+Fourty-fifth release (1.6.7) {04/20/2025} [bugfix release]: 
+
+Changelog:
+	→changed first-strike animations: the attacking side enters but the defender plays the attacking animation first
+	→added damage boxes for the low and high luck roll ranges
+	→tweaked several R-menu text descriptions
+	→tweaked tag synergies for several COs
+	→tweaked damage values for several units
+	→reworked AI attack queue
+	→changed ordering of AI unit action queue
+	→added a third page to the damage chart
+
+Bugfixes:
+	→fixed the unit damage chart breaking the terrain mini-box graphics
+	→fixed a couple typos in the R-menu text descriptions
+	→fixed certain SFX being silent during battle animations
+	→fixed inconsistent tag stars between Sami and Sonja
+	→fixed AI action queue clearing unit entries too early
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-fourth release (1.6.6) {04/10/2025} [bugfix release]: 
 
 Changelog:
 	→changed maximum custom unit cap to 63
