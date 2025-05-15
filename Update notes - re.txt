@@ -1,4 +1,20 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-fifth release (1.6.8) {05/15/2025} [bugfix release]: 
+
+Changelog:
+	→changed AI to consider tag partners with no meter as not having a tag partner for power determinations
+	→AI now more consistently automatically attacks Oozium if it moves adjacent to Oozium
+	→the AI now values transports higher if they have more units and considers the units inside
+	→the damage indicator boxes now change color based on the potential damage recieved
+
+Bugfixes:
+	→fixed AI not activating tag if Jugger was paired with a CO that changes the weather
+	→fixed bug causing the game to crash when loading a save in Versus mode
+	→fixed Rules screen not displaying actual unit count during matches
+	→fixed bug causing AI to not use non-Tag powers as Jess
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fourty-fifth release (1.6.7) {04/20/2025} [bugfix release]: 
 
 Changelog:
