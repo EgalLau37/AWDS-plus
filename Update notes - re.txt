@@ -1,5 +1,5 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-fifth release (1.6.8) {05/15/2025} [bugfix release]: 
+Fourty-sixth release (1.6.8) {05/15/2025} [bugfix release]: 
 
 Changelog:
 	→changed AI to consider tag partners with no meter as not having a tag partner for power determinations
