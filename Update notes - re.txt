@@ -1,5 +1,23 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-sixth release (1.6.8) {05/15/2025} [bugfix release]: 
+Fourty-eighth release (1.6.9) {05/23/2025} [AI improvements]: 
+
+Changelog:
+	→the AI will move an idle unit out of the way for an attacking unit
+	→the AI now prefers attacking from a tile with less enemies adjacent for hidden units
+	→implemented a basic capture queue for the AI
+	→made signficant changes the battle exchange evaluation for the AI
+	→added an AI action routine for APC to actively supply units with low fuel or ammo
+	→changed property weights for transport movement to distant properties
+	→assigned unique property weights for capture unit movement towards distant properties
+
+Bugfixes:
+	→fixed the AI not advancing towards properties with foot soldiers
+	→fixed incorrect unit entries being cleared from the AI attack queue
+	→fixed AI checking the fuel for the loading unit when determining the fuel amount for tranports
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-seventh release (1.6.8) {05/15/2025} [bugfix release]: 
 
 Changelog:
 	→changed AI to consider tag partners with no meter as not having a tag partner for power determinations
@@ -15,7 +33,7 @@ Bugfixes:
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-fifth release (1.6.7) {04/20/2025} [bugfix release]: 
+Fourty-sixth release (1.6.7) {04/20/2025} [bugfix release]: 
 
 Changelog:
 	→changed first-strike animations: the attacking side enters but the defender plays the attacking animation first
@@ -36,7 +54,7 @@ Bugfixes:
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-fourth release (1.6.6) {04/10/2025} [bugfix release]: 
+Fourty-fifth release (1.6.6) {04/10/2025} [bugfix release]: 
 
 Changelog:
 	→changed maximum custom unit cap to 63
@@ -46,7 +64,7 @@ Bugfixes:
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Fourty-forth release (1.6.5) {02/16/2025} [feature release]: 
+Fourty-fourth release (1.6.5) {02/16/2025} [feature release]: 
 
 Changelog:
 	→replaced Sturm's graphics with new custom graphics by [Sturm Magma Ocean]
