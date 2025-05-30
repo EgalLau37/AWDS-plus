@@ -1,4 +1,18 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourty-ninth release (1.7.0) {05/30/2025} [bugfix release]: 
+
+Changelog:
+	→added on-screen buttons during the team select screen for CPU AI
+	→added corresponding AI for enemy units in first nine AW1 campaign maps
+
+Bugfixes:
+	→fixed an unused leftover innate skill check always adding meter gain
+	→fixed Underpowered super force rank skill subtracting meter gain rather than adding
+	→fixed an incorrect check for whether certain custom items should be available in Hachi's shop
+	→fixed incorrect tiles in map Kanbei Arrives!
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fourty-eighth release (1.6.9) {05/23/2025} [AI improvements]: 
 
 Changelog:
