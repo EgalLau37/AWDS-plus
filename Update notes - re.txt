@@ -1,9 +1,32 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fiftieth release (1.7.1) {06/09/2025} [Map Select expansion]: 
+
+Changelog:
+	→Olaf now has a lower AI CO swap priority during rain
+	→the AI now performs CO swap based on the map situation while both meters have roughly the same number of stars remaining
+	→added 11 4P competitive maps
+	→added 5 3P competitive maps
+	→added 10 Fog of War competitive maps
+	→added 10 High Funds competitive maps
+	→added corresponding AI for enemy units for all the AW1 campaign maps
+	→re-added all the vanilla Versus maps
+	→fixed AI sending foot soldiers to the secondary front too early
+	→tweaked S-rank daycount requirement for a few War Room maps
+	→assigned S-rank daycounts for AW4 campaign maps and some AW2 campaign maps
+	→added on-screen buttons on Rules screen for the X/Y/L/R buttons
+	
+Bugfixes:
+	→fixed the AI idle unit check performing additional checks unnecessarily which could cause the AI to not move a unit out of the way
+	→fixed AI being able to purchase Black Boats if AW1/AW2 unit lists are enforced
+	→fixed AI being able to purchase Black Bombs if AW1/AW2 unit lists are enforced
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fourty-ninth release (1.7.0) {05/30/2025} [bugfix release]: 
 
 Changelog:
 	→added on-screen buttons during the team select screen for CPU AI
-	→added corresponding AI for enemy units in first nine AW1 campaign maps
+	→added corresponding AI for enemy units in first nine AW1 campaign maps (normal-only)
 
 Bugfixes:
 	→fixed an unused leftover innate skill check always adding meter gain
