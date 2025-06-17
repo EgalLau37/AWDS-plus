@@ -1,4 +1,22 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifty-first release (1.7.2) {06/17/2025} [Map Select expansion polishing]: 
+
+Changelog:
+	→Design map maps now display the actual map instead of a placeholder graphic in the map select screen
+	→Design map maps now display property counts on the map select screen
+	→added two additional pages to the faction results screen to display faction data for the secondary front
+	→added two War Room maps to the DS category
+
+Bugfixes:
+	→fixed bug that caused the AI to incorrectly determine whether to CO swap when both COs were within one star of full meter
+	→fixed map Sinking Ships causing game to hang
+	→fixed setup flags tens digit not appearing if it is equal to 0 while there are three digits
+	→fixed bug in AI capture queue routine that caused the AI to not make use of it properly
+	→fixed War Room scores not properly updating when scrolling through EXP multipliers
+	→fixed War Room scores not being properly interpreted for the displayed scores
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fiftieth release (1.7.1) {06/09/2025} [Map Select expansion]: 
 
 Changelog:
