@@ -5,6 +5,7 @@ Changelog:
 	→improved custom AI APC supply calculation to take unit type and value into account when there are multiple targets in range
 	→added a miscellaneous flag that requires all Labs to be captured for that faction to lose
 	→updated Versus manual to mention the new miscellaneous flag
+	→the HQ/Lab capture success SFX now also plays when enemy factions capture an HQ/Lab
 
 Bugfixes:
 	→fixed AI attempting to supply units from out-of-bounds, causing a crash
