@@ -1,12 +1,14 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fifty-fifth release (1.7.6) {10/19/2025} [bugfix release]: 
 
-Bugfixes:
-	→fixed AI attempting to supply units from out-of-bounds, causing a crash
+Changelog:
 	→improved custom AI APC supply calculation to take unit type and value into account when there are multiple targets in range
-	→fixed Kindle's missing firepower boosts on properties
 	→added a miscellaneous flag that requires all Labs to be captured for that faction to lose
 	→updated Versus manual to mention the new miscellaneous flag
+
+Bugfixes:
+	→fixed AI attempting to supply units from out-of-bounds, causing a crash
+	→fixed Kindle's missing firepower boosts on properties
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
