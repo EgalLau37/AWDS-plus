@@ -1,4 +1,19 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifty-sixth release (1.7.7) {10/22/2025} [bugfix release]: 
+
+Changelog:
+	→units up to unit 64 now have their wait status cleared at the end of the turn
+	→multiple HQs per faction can now be placed in Design maps
+
+Bugfixes:
+	→fixed crash on unit stat page on CO Info screen during sandstorm
+	→fixed Send command sending units to the incorrect coordinates
+	→fixed second front camera also scrolling with the main front camera when it should not
+	→fixed game not allowing Nell to be selected twice for the same faction in Versus
+	→fixed oversight that caused the game to crash on the second page of the Dual Strike Campaign maps Versus category
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fifty-fifth release (1.7.6) {10/19/2025} [bugfix release]: 
 
 Changelog:
