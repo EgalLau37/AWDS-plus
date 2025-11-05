@@ -1,4 +1,21 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifty-seventh release (1.7.8) {11/05/2025} [bugfix release]: 
+
+Bugfixes:
+	→fixed issues related to Sand
+	→fixed Jugger not receiving boosts in Rain
+	→fixed Drake not being immune to negative effects of Rain
+	→fixed Sturm not granting stat boosts to foot soldiers during Super CO power
+	→fixed random CO option not selecting COs with IDs higher than 0xF
+	→fixed tiling errors on Wings of Victory (s)
+	→fixed tiling errors on The Final Battle
+	→fixed tiling errors on Linked Cubes
+	→fixed bug where snow penalties lasted an extra turn?
+	→fixed invalid events in Resurrection and Hydrocity
+	→fixed Random CO changing to default COs upon entry into Versus mode
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fifty-sixth release (1.7.7) {10/22/2025} [bugfix release]: 
 
 Changelog:
