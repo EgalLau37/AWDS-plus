@@ -1,4 +1,37 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifty-eighth release (1.7.9) {11/15/2025} [AI improvements 2]: 
+
+Changelog:
+	→reworked the previous improvements to the AI
+	→ported and improved the AI action phase system from Days of Ruin+
+	→optimized many AI-related routines
+	→removed AI CO power check AI unit action phase
+	→the AI now checks for CO power before every unit action
+	→changed many COs to check for unit count percentage instead of the AI unit action phase ID for CO powers
+	→the AI now considers which power-related level flags are enabled for whether to consider the amount of meter its tag partner has
+	→the AI can now activate CO powers after purchasing units
+	→improved the AI join routine for joining onto capturing units
+		☼the AI now considers the tile being captured
+		☼the AI now prioritizes higher-value properties instead of the first available target
+		☼the AI has different maximum join HP dependent on the tile being captured
+	→the AI now will auto-assign the Supply or Repair actions for APC and Black Boat even if they do not move
+	→the AI should now always take free attacks while repairing
+	→the AI will now use CO powers after purchasing units with Eagle
+	→the AI will now delay acting with foot soldiers with Sami if the AI is close to being able to use Super/Tag powers 
+	→removed the AI foot soldier capture interrupt routines from the main foot soldier AI action routines
+	→the AI now performs a comparison between its current tile and the target tile when calculating whether to stop its own capture to interrupt an enemy capture
+	→tweaked the AI battle exchange evaluation routine
+		→increased the value of Oozium from 1
+		→decreased the multiplier for directs and indirects
+		→decreased the overall AI-based multipliers
+
+Bugfixes:
+	→fixed No Visuals always playing capture animations
+	→fixed player/CPU and Team not saving properly in Versus
+	→fixed AI sometimes not using a join target unit before joining
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fifty-seventh release (1.7.8) {11/05/2025} [bugfix release]: 
 
 Bugfixes:
