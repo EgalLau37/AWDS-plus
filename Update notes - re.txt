@@ -1,4 +1,20 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifty-ninth release (1.7.94) {11/15/2025} [bugfix update]: 
+
+Bugfixes:
+	→fixed the AI not moving Oozium near the start of the turn
+	→fixed typo resulting in the AI executing an invalid action with Oozium 
+	→fixed the AI using the old address in some instances to determine which half of the turn it is
+	→fixed the AI executing extra code half-way through its turn
+	→fixed the AI causing the game to crash when calculating which tile to attack from
+	→fixed oversight that caused the AI to calculate battle exchange values incorrectly
+	→fixed the AI applying certain penalty negations incorrectly
+	→fixed AI never using CO Power with Sasha
+	→fixed tiling error in Danger Zone
+	→fixed typo that caused AI to crash game when attempting to calculate battle exchange values
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fifty-eighth release (1.7.9) {11/15/2025} [AI improvements 2]: 
 
 Changelog:
