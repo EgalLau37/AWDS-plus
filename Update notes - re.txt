@@ -1,4 +1,48 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixtieth release (1.8.0) {11/26/2025} [AI improvements 3]: 
+
+Changelog:
+	→unit sprites on the top-screen now face a direction according to the team ID
+	→added a sound effect for cycling through units with the L button
+	→the L button cycling can now cycle through units from any faction depending on which unit the cursor is on
+	→excluded units being transported for AI power calculations
+	→re-implemented a variation of the previous AI capture queue
+	→the AI will now wait with capture units if a target capture tile is blocked
+	→the AI will now target the closest property with the greatest distance with the highest value with capture units
+	→the AI will now target properties within the transport+capture unit movement range before the transport-only range when dropping off capture units
+	→the AI now correctly prioritizes the farthest property with the greatest weight when dropping off capture units
+	→the AI can now send Oozium to the secondary front
+	→the AI can now send Black Bombs to the secondary front
+	→the AI will now wait for allied units to move off a property to move onto for repairs
+	→the AI should no longer do nothing with loaded naval transports if there is a land route
+	→tweaked the position of the CO windows on the CO select screen for four-player matches
+	→tweaked the AI battle exchange evaluation routine
+		☼reduced the bonus for attacking Megatanks
+		☼tweaked how the property-based multipliers are considered
+		☼targets capturing a neutral HQ/Lab no longer increase the multiplier
+			☼the calculation now takes into account the Lab unit flag for applying multipliers to neutral Labs
+		☼an additional multiplier bonus is applied if its own HQ/Lab is being captured
+		☼an additional lesser multiplier bonus is applied if a teammate HQ/Lab is being captured
+		☼a lesser multiplier penalty is applied if an enemy HQ/Lab is being captured
+	→adjusted the top-screen terrain star display to now correctly display up to 10 stars
+	
+Bugfixes:
+	→fixed CO select page toggle buttons not re-appearing when selecting/cancelling a CO selection
+	→fixed damage indicator displaying the previous color for a couple frames
+	→fixed damage indicator displaying the previous color for attacking tiles
+	→fixed the AI auto-capturing neutral HQs and Labs with capture units 
+	→fixed oversight in terrain check routine always reading the first tile of the map
+	→fixed terrain-based COs not checking the terrain correctly as a result of the above oversight
+	→fixed indirects not considering damage-per-tile when calculating whether to attack terrain/inventions
+	→corrected oversight that led to Sonja/Jugger tag situation where the AI would not use Tag powers
+	→fixed out-of-bounds Infantry in First Step
+	→fixed the mini-map on the CO select screen displaying garbage map data for Design Map maps
+	→fixed oversight that caused AI to consider tiles with active allies as blocked
+	→fixed game checking for Sasha's income boost twice instead of the Gold Rush skill and Sasha's income boost separately
+	→fixed Lash's additional terrain star getting added twice
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Fifty-ninth release (1.7.94) {11/15/2025} [bugfix update]: 
 
 Bugfixes:
@@ -37,9 +81,9 @@ Changelog:
 	→removed the AI foot soldier capture interrupt routines from the main foot soldier AI action routines
 	→the AI now performs a comparison between its current tile and the target tile when calculating whether to stop its own capture to interrupt an enemy capture
 	→tweaked the AI battle exchange evaluation routine
-		→increased the value of Oozium from 1
-		→decreased the multiplier for directs and indirects
-		→decreased the overall AI-based multipliers
+		☼increased the value of Oozium from 1
+		☼decreased the multiplier for directs and indirects
+		☼decreased the overall AI-based multipliers
 
 Bugfixes:
 	→fixed No Visuals always playing capture animations
