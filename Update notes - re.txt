@@ -3,7 +3,8 @@ Sixty-first release (1.8.01) {11/26/2025} [bugfix mini-update]:
 
 Bugfixes:
 	→fixed Oozium having only one fuel, disallowing its movement in snow
-	→fixed oversight that allowed capture units to attack from an occupied tile
+	→fixed oversight that allowed the AI to attack from an occupied tile with capture units 
+	-fixed oversight that prevented the AI from repairing units 
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
@@ -33,6 +34,7 @@ Changelog:
 		☼an additional lesser multiplier bonus is applied if a teammate HQ/Lab is being captured
 		☼a lesser multiplier penalty is applied if an enemy HQ/Lab is being captured
 	→adjusted the top-screen terrain star display to now correctly display up to 10 stars
+	→the AI will now also seek out units to supply with loaded APCs
 	
 Bugfixes:
 	→fixed CO select page toggle buttons not re-appearing when selecting/cancelling a CO selection
