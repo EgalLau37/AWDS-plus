@@ -1,4 +1,16 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-second release (1.8.03) {11/28/2025} [bugfix update]: 
+
+Changelog:
+	→the AI now has a higher CO swap weight for Drake during rain
+	
+Bugfixes:
+	→fixed an oversight with the AI capture queue calculation
+	→fixed bug that caused the AI to crash the game when checking whether to use CO powers
+	→fixed bug that caused the AI to crash the game when calculating routing for naval transports
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-first release (1.8.01) {11/26/2025} [bugfix mini-update]: 
 
 Bugfixes:
