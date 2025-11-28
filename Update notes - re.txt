@@ -4,7 +4,7 @@ Sixty-first release (1.8.01) {11/26/2025} [bugfix mini-update]:
 Bugfixes:
 	→fixed Oozium having only one fuel, disallowing its movement in snow
 	→fixed oversight that allowed the AI to attack from an occupied tile with capture units 
-	-fixed oversight that prevented the AI from repairing units 
+	→fixed oversight that prevented the AI from repairing units 
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
