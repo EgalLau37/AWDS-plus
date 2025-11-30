@@ -1,5 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Sixty-second release (1.8.03) {11/28/2025} [bugfix update]: 
+Sixtieth_4 release (1.8.04) {11/30/2025} [bugfix update]: 
+
+Bugfixes:
+	→fixed oversight that an AI flag to be overwritten with an incorrect value, causing the AI to attack inventions when it should not
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixtieth_3 release (1.8.03) {11/28/2025} [bugfix update]: 
 
 Changelog:
 	→the AI now has a higher CO swap weight for Drake during rain
@@ -8,10 +15,11 @@ Bugfixes:
 	→fixed an oversight with the AI capture queue calculation
 	→fixed bug that caused the AI to crash the game when checking whether to use CO powers
 	→fixed bug that caused the AI to crash the game when calculating routing for naval transports
+	→fixed oversight that caused the L button to not cycle to the HQ correctly
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Sixty-first release (1.8.01) {11/26/2025} [bugfix mini-update]: 
+Sixtieth_2 release (1.8.01) {11/26/2025} [bugfix mini-update]: 
 
 Bugfixes:
 	→fixed Oozium having only one fuel, disallowing its movement in snow
