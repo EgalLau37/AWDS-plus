@@ -1,8 +1,28 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-first release (1.8.1) {12/02/2025} [bugfix update]: 
+
+Changelog:
+	→the AI no longer saves up for Tag powers if Tags are disabled
+	→Oozium are now immune to Lash's Laser and the Death Ray
+	→ported the AW2 mini-box terrain graphic icon for Lash's Laser
+	→replaced the mini-box terrain graphic icon for Death Ray with the AW2 version
+	→added mini-box terrain name for Lash's Laser
+	→changed the mini-box terrain names for several tiles to spell out the entire word
+	→reverted the previous change to naval transport routing calculation
+
+Bugfixes:
+	→fixed Lash's Laser allowing HP to underflow when dealing damage
+	→fixed bug that caused the AI to overwrite important calculation-related values, potentially corrupting the map
+	→fixed missing unit data for map Time Digging
+	→fixed Empowerer also doubling Olaf's +20% attack boost in snow
+	→fixed Jugger not receiving a +10% attack boost in rain
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixtieth_4 release (1.8.04) {11/30/2025} [bugfix update]: 
 
 Bugfixes:
-	→fixed oversight that an AI flag to be overwritten with an incorrect value, causing the AI to attack inventions when it should not
+	→fixed oversight that caused an AI flag to be overwritten with an incorrect value, causing the AI to attack inventions when it should not
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
