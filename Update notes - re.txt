@@ -1,4 +1,41 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-second release (1.8.2) {12/10/2025} [bugfix update]: 
+
+Changelog:
+	→the AI will now also attack Oozium if Oozium cannot traverse the tile the AI attacks from
+	→updated routine that determines whether a unit can traverse a tile generally to account for the current movement cost in CO data structure
+	→the AI now prefers attacking from tiles that are not adjacent to Oozium
+	→the Medium Tanks and Neotank in Fear Experiment now start with the paralysis status
+	→changed certain specific unit exchange bonuses for the AI battle evaluation exchange calculation
+		☼removed the Fighter vs. Fighter bonus
+		☼changed Bomber vs. Cruiser/Anti-Air bonus to a penalty
+		☼added Submarine vs. Cruiser penalty if the Cruiser is not destroyed
+	→fixed oversight that caused the AI to infinitely hang when attempting to join
+	→updated the score saving and interpretation routines for campaign scores
+	→changed the save score structure for campaign mode scores
+	→changed the save score structure for survival mode scores
+	→added different sound effect for attempting to cycle through units when there are no units to cycle through
+	→changed how the AI counts units currently being transported for CO power determinations
+	→when calculating battle exchange values, the AI now reduces the damage-per-tile penalty if the target contributes to that damage
+		☼altered the AI-based value modifiers to take into account the above penalty reduction
+	→Oozium are now excluded from the CO power determination unit count checks
+
+Bugfixes:
+	→fixed tiling errors in A Hero's Farewell
+	→fixed tiling error in Icy Retreat
+	→fixed Cruiser/Carrier AI auto-action reading data from the vanilla CO data offset instead
+	→fixed the random CO option rolling twice for DS battles
+	→fixed oversight in AI CO power determination routine for Sensei
+	→fixed oversight that caused the AI to completely skip most foot soldier actions with Sami
+	→fixed incorrect portrait in map event in Dark Ambition
+	→fixed the detonation of the weather device causing fog of war in Dark Ambition
+	→fixed fog of war becoming active when the sandstorm clears in Healing Touch
+	→fixed AI causing game to infintely hang if attempting to use CO powers with Andy without units
+	→fixed AI being able to drop units from an occupied tile
+	→fixed oversight in AI battle exchange evaluation that resulted in trapped units using an incorrect penalty reduction value
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-first release (1.8.1) {12/02/2025} [bugfix update]: 
 
 Changelog:
