@@ -30,7 +30,7 @@ Bugfixes:
 	→fixed incorrect portrait in map event in Dark Ambition
 	→fixed the detonation of the weather device causing fog of war in Dark Ambition
 	→fixed fog of war becoming active when the sandstorm clears in Healing Touch
-	→fixed AI causing game to infintely hang if attempting to use CO powers with Andy without units
+	→fixed AI causing game to infinitely hang if attempting to use CO powers with Andy without units
 	→fixed AI being able to drop units from an occupied tile
 	→fixed oversight in AI battle exchange evaluation that resulted in trapped units using an incorrect penalty reduction value
 
