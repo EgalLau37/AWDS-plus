@@ -1,4 +1,14 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-third release (1.8.31) {12/21/2025} [bugfix update]: 
+
+
+Bugfixes:
+	→fixed Kindle missing part of her hair when initiating Tag powers
+	→fixed oversight that caused the AI to target properties incorrectly
+	→fixed oversight that caused the AI to pursue enemy units incorrectly
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-third release (1.8.3) {12/21/2025} [bugfix+minor AI improvements update]: 
 
 Changelog:
@@ -7,7 +17,7 @@ Changelog:
 	→the AI now considers the target coordinates of all volcanoes instead of only the first volcano
 	→the AI now ignores the range of Black Hole inventions if there is no Black Hole faction
 	→tweaked the AI battle exchange evaluation routine penalty calculation
-	→the AI now will now move onto the terrain with the most terrain stars when trapped and has no targets
+	→the AI now may now move onto the terrain with the most terrain stars when trapped and has no targets
 	→changed how the AI determines which enemy units to pursue for certain AI values
 
 Bugfixes:
