@@ -1,4 +1,26 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-third release (1.8.3) {12/21/2025} [bugfix+minor AI improvements update]: 
+
+Changelog:
+	→changed the AI damage-per-tile calculation routine minimum damage from 25 to 1
+	→the AI now also automatically attacks tiles/inventions if there is one in range
+	→the AI now considers the target coordinates of all volcanoes instead of only the first volcano
+	→the AI now ignores the range of Black Hole inventions if there is no Black Hole faction
+	→tweaked the AI battle exchange evaluation routine penalty calculation
+	→the AI now will now move onto the terrain with the most terrain stars when trapped and has no targets
+	→changed how the AI determines which enemy units to pursue for certain AI values
+
+Bugfixes:
+	→fixed oversight that caused the AI to infinitely hang when calculating how many turns to finish a capture with foot soldiers
+	→fixed oversight that caused the AI to use CO powers when it should not
+	→fixed game immediately loading no more units if the unit cap is hit during match setup
+	→fixed incorrect portrait in map event in Ring of Fire
+	→fixed AI improperly calculating whether it can drop units with transports
+	→fixed chaos volcano not being setup properly at match start
+	→fixed bug where the AI would incorrectly modify a pointer in RAM that would lead to corrupted terrain data and eventually a game crash
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-second release (1.8.2) {12/10/2025} [bugfix update]: 
 
 Changelog:
@@ -10,7 +32,6 @@ Changelog:
 		☼removed the Fighter vs. Fighter bonus
 		☼changed Bomber vs. Cruiser/Anti-Air bonus to a penalty
 		☼added Submarine vs. Cruiser penalty if the Cruiser is not destroyed
-	→fixed oversight that caused the AI to infinitely hang when attempting to join
 	→updated the score saving and interpretation routines for campaign scores
 	→changed the save score structure for campaign mode scores
 	→changed the save score structure for survival mode scores
@@ -23,6 +44,7 @@ Changelog:
 Bugfixes:
 	→fixed tiling errors in A Hero's Farewell
 	→fixed tiling error in Icy Retreat
+	→fixed oversight that caused the AI to infinitely hang when attempting to join
 	→fixed Cruiser/Carrier AI auto-action reading data from the vanilla CO data offset instead
 	→fixed the random CO option rolling twice for DS battles
 	→fixed oversight in AI CO power determination routine for Sensei
