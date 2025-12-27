@@ -1,4 +1,14 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-sixth release (1.8.41) {12/27/2025} [bugfix update]: 
+
+Changelog:
+	→the dialogue talk windows are now different colors based on the faction of the CO
+
+Bugfixes:
+	→fixed oversight where the AI could purchase Oozium even if the level flag for Oozium purchasing is disabled
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-fifth release (1.8.4) {12/26/2025} [AI improvements 4]: 
 
 Changelog:
