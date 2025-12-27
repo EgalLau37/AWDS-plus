@@ -1,6 +1,26 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Sixty-third release (1.8.31) {12/21/2025} [bugfix update]: 
+Sixty-fifth release (1.8.4) {12/26/2025} [AI improvements 4]: 
 
+Changelog:
+	→the AI will now drop both loaded units during movement with non-transport units
+	→the AI will now drop units from transports even if a land route is created from the original area
+	→the AI will now drop units from a transport onto a landmass with only air units if an Anti-Air or Missiles is loaded
+	→changed the AI battle exchange evaluation calculation to favor weak attacks with high counter damage less
+	→tweaked the AI capture queue calculation routine
+	→the AI will now attempt to conserve funds to purchase at least one Infantry per base in Versus mode
+	→changed the order of AI actions with capture units
+	→changed the AI to continue capturing instead of initiating a new capture in certain situations
+
+Bugfixes:
+	→fixed oversight with the AI calculation for whether foot soldiers should load into transports
+	→fixed oversight that allowed the AI to target its own properties for foot soldier transport target tiles
+	→fixed bug that caused the game to crash when loading maps with predeployed units
+	→fixed bug that caused the game to crash when attempting to load the unit purchase list in Campaign mode
+	→fixed part of Kindle's hair being missing during Tag swap
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-fourth release (1.8.31) {12/21/2025} [bugfix update]: 
 
 Bugfixes:
 	→fixed Kindle missing part of her hair when initiating Tag powers
