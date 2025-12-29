@@ -1,4 +1,16 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-eighth release (1.8.43) {12/28/2025} [bugfix update]: 
+
+Changelog:
+	→added titles to the damage chart to indicate what type of data is being displayed
+	→changed vision adjustment check to correctly account for level flags
+
+Bugfixes:
+	→fixed oversight that caused the meter stars on the top-screen to flash incorrectly
+	→fixed bug that caused the game to obtain range boosts incorrectly
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-seventh release (1.8.42) {12/28/2025} [bugfix update]: 
 
 Changelog:
