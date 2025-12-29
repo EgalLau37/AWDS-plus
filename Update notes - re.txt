@@ -1,4 +1,18 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-seventh release (1.8.42) {12/28/2025} [bugfix update]: 
+
+Changelog:
+	→changed color of dialogue talk windows to match the AW2 palettes
+
+Bugfixes:
+	→fixed bug that caused game to crash when the AI checked whether to buy T-Copter
+	→fixed dialogue palettes overwriting other palettes
+	→fixed AI using powers when it should not
+	→fixed meter SFX playing when it should not
+	→fixed bug that allowed the AI to overwrite an important address related to tile data
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-sixth release (1.8.41) {12/27/2025} [bugfix update]: 
 
 Changelog:
