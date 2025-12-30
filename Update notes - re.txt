@@ -1,4 +1,21 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixty-ninth release (1.8.5) {12/30/2025} [bugfix update]: 
+
+Changelog:
+	→changed firepower and defense adjustments checks to correctly account for level flags
+	→Olaf now increases the chance of snow during random weather
+	→Drake now increases the chance of rain during random weather
+	→Jugger now increases the chance of snow, rain, sand during random weather
+	→changed how faction AI affects the random max damage variance for generating the AI situational profile
+	→(AI production profiles are now stored in external files)
+	→tweaked how the AI updates its unit AI profiles upon power execution
+
+Bugfixes:
+	→fixed campaign mode scores not saving or being interpreted correctly
+	→fixed some issues relating to AI unit and production profiles
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-eighth release (1.8.43) {12/28/2025} [bugfix update]: 
 
 Changelog:
