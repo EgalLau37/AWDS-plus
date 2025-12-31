@@ -1,4 +1,17 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventieth release (1.8.6) {12/31/2025} [mini Design Room update]: 
+
+Changelog:
+	→tiles and units are now animated in the design room
+		☼inventions now appear correctly in the design room
+	→updated the AI unit action phase table for Fog of war
+
+Bugfixes:
+	→fixed range adjustments being incorrect for the back CO
+	→fixed Jugger, Koal, Kindle using incorrect AI unit profiles
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Sixty-ninth release (1.8.5) {12/30/2025} [bugfix update]: 
 
 Changelog:
