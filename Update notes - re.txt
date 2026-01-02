@@ -1,8 +1,18 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventy-first release (1.8.62) {01/01/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed player-set song ID for the Design room not playing
+	→fixed the AI setting the active status on units but not unsetting that status when attempting to join
+	→fixed Missiles in Naval Clash! (A) starting with paralyze status
+	→fixed the page-per-category values being overwritten by AI profile data, resulting in invalid pages being active
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Seventieth release (1.8.6) {12/31/2025} [mini Design Room update]: 
 
 Changelog:
-	→tiles and units are now animated in the design room
+	→tiles and units are now animated in the Design room
 		☼inventions now appear correctly in the design room
 	→updated the AI unit action phase table for Fog of war
 
