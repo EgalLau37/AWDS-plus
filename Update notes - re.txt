@@ -1,5 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Seventy-first release (1.8.62) {01/01/2026} [bugfix update]: 
+Seventy-third release (1.8.63) {01/05/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed game crash when attempting to view back partner unit stats on the CO Info screen
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventy-second release (1.8.62) {01/01/2026} [bugfix update]: 
 
 Bugfixes:
 	→fixed player-set song ID for the Design room not playing
