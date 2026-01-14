@@ -1,4 +1,14 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventy-fifth release (1.8.71) {01/14/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed game crash when attempting to purchase copters from Bases
+	→fixed wait status not being applied correctly when purchasing copters from Bases
+	→fixed random AI Versus rule parameter causing game crash
+	→fixed game crash caused by the AI calculating movement with foot soldiers
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Seventy-fourth release (1.8.7) {01/14/2026} [System upgrade Δ]: 
 
 Changelog:
