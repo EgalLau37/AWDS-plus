@@ -1,4 +1,51 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventy-fourth release (1.8.7) {01/14/2026} [System upgrade Δ]: 
+
+Changelog:
+	→the unit stats page of the CO Info screen now displays both movement and range up to +/-9
+	→the AI now properly considers the current cost of Infantry instead of the default cost when allocating funds for one Infantry per Base
+	→changed the AI unit purchase routine list for Versus mode
+	→changed the AI determination for purchasing Fighters (special sub-phase)
+		☼the AI now checks for at least four enemy air units instead of at least one
+	→the AI can now run battle simulations with set luck percentages for calculating battle values
+	→changed some COs
+		☼increased Jugger rain boosts from +10 attack/+1 range -> +20 attack/+2 range
+		☼increased Eagle CO power cost from 3 -> 4 stars
+		☼changed Grimm
+			♪decreased CO power attack from +100 -> +80
+			♪decreased Super CO power attack from +200 -> +150
+			♪increased CO power costs from 3/6 -> 4/7
+		☼decreased HP repaired from Andy's powers from 5,8 to 4,7
+		☼decreased HP repaired from Von Bolt's power from 5 to 4
+		☼changed Hawke's boosts from +10 to +10/+10
+		☼Sonja now grants negative luck to enemies (-5/-15/-30)
+		☼Nell has +5 extra luck overall
+		☼Rachel has +5 extra luck overall and 50% repair costs
+		☼Kindle now also gains attack when attacking enemies on top of properties
+		☼changed Sensei
+			♪decreased Super CO power cost from 7 -> 6 stars
+			♪Copters built on Bases during his CO power do not have the wait status set
+	→the AI now prioritizes purchasing B-copter when copters can be purchased from Bases
+	→the following now correctly apply based on level flags:
+		☼positive/negative luck rolls
+		☼Com tower attack/defense boosts
+		☼firepower from terrain boosts
+		☼unit costs
+		☼additional HP repair boosts
+		☼counter-attack bonus
+		☼capture boosts
+	→changed CO ID save data addresses
+
+Bugfixes:
+	→fixed game crash relating to the factory on map Great Sea Battle
+	→fixed AI ignoring the AW1/2 unit list flags for unit purchasing
+	→fixed Versus faction data being incorrect upon starting a new save
+	→fixed font color during Epilogue making dialogue unreadable
+	→fixed AI causing game crash when determining which enemy unit to target for movement
+	→fixed AI causing game crash when calculating whether to purchase APC
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Seventy-third release (1.8.63) {01/05/2026} [bugfix update]: 
 
 Bugfixes:
