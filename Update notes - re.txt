@@ -1,4 +1,25 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventy-seventh release (1.8.8) {01/17/2026} [bugfix update]: 
+
+Changelog:
+	→increased window size for the unit chart
+	→added ability to scroll the worldmap
+		☼hold Select to scroll 4x faster
+	→added ability to manually bring up the save prompt while on the worldmap
+	→pressing Select on the Versus Rules parameters screen now randomizes most parameters
+	→the AI now takes into account skills that set luck when calculating battle exchanges
+
+Bugfixes:
+	→fixed damage chart not displaying unit pointer
+	→fixed a few force rank skills missing text descriptions
+	→fixed bug that caused the AI to calculate which units to purchase incorrectly in non-Versus modes
+	→fixed oversight that caused the AI to crash the game when calculating whether to perform CO swap when all CO effect flags are disabled
+	→fixed versus faction-related data not saving properly
+	→fixed CO IDs being incorrect in certain situations in Versus mode
+	→fixed missing AI profile for Lash in Tag Battle
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Seventy-sixth release (1.8.72) {01/14/2026} [bugfix update]: 
 
 Bugfixes:
