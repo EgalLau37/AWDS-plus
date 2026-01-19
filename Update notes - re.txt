@@ -1,4 +1,27 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eightieth release (1.8.83) {01/18/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed Green Earth Artillery using a Blue Moon soldier sprite while being destroyed
+	→fixed tiling error in Enigma!
+	→fixed tiling error in Border Skirmish (h)
+	→fixed certain AW2 campaign maps using the normal unit placement instead of hard
+	→fixed tiling error in Test of Time (h)
+	→fixed tiling error in Navy vs. Air (h)
+	→fixed some incorrect item names in Hachi's shop
+	→fixed Rachel and Nell having incorrect positive luck amounts
+	→fixed unit cost and range check routines failing to account for the clone flag
+	→fixed the text on the unit damage chart warping strangely
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventy-ninth release (1.8.82) {01/17/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed AI causing game to crash when calculating targetting for capture units
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Seventy-seventh release (1.8.8) {01/17/2026} [bugfix update]: 
 
 Changelog:
