@@ -1,4 +1,21 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighty-first release (1.8.85) {01/21/2026} [mini update]: 
+
+Changelog:
+	→changed Plains background for normal tileset in battle animations to look smoother
+	→Kindle now also gains firepower when attacking into properties for her day-to-day
+
+Bugfixes:
+	→fixed animations disabling when re-entering the main map from name entry in Design Maps
+	→fixed tiling error in The Final Battle
+	→fixed Death Ray firing at a width of four instead of three
+	→fixed bug in AI capture unit movement calculation routine that caused an invalid destination to be set
+	→fixed tiling error in Sunrise
+	→fixed Empowerer incorrectly doubling unit damage when calculating the base damage adder skills
+	→fixed oversight that caused the War Room score display to display the (actual score-1) if more than 255 points were earned
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Eightieth release (1.8.83) {01/18/2026} [bugfix update]: 
 
 Bugfixes:
