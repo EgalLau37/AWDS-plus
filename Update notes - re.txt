@@ -1,4 +1,17 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighty-third release (1.8.9) {01/23/2026} [mini update]: 
+
+Changelog:
+	→shifted Sturm's Sound Room entry
+	→changed which COs appear for different Sound Room entries
+
+Bugfixes:
+	→fixed missing texts in Sound Room
+	→fixed missing Wireless mode texts
+	→fixed AI calculating when to CO swap incorrectly
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Eighty-first release (1.8.85) {01/21/2026} [mini update]: 
 
 Changelog:
