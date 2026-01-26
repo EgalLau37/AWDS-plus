@@ -1,5 +1,19 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Eighty-third release (1.8.9) {01/23/2026} [mini update]: 
+Eighty-fifth release (1.9.0) {01/26/2026} [update]: 
+
+Changelog:
+	→increased Battleship damage overall
+	→opened the gamestyle config menu (work-in-progress)
+
+Bugfixes:
+	→fixed Recon unable to damage Battleship
+	→fixed AI not using CO powers depending on which level flags were enabled
+	→fixed some incorrect texts
+	→fixed oversight that caused the AI to calculate an extra unit when it should not
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighty-third release (1.8.9) {01/23/2026} [mini bugfix update]: 
 
 Changelog:
 	→shifted Sturm's Sound Room entry
@@ -12,7 +26,7 @@ Bugfixes:
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Eighty-first release (1.8.85) {01/21/2026} [mini update]: 
+Eighty-first release (1.8.85) {01/21/2026} [mini bugfix update]: 
 
 Changelog:
 	→changed Plains background for normal tileset in battle animations to look smoother
