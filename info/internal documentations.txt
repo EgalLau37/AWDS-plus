@@ -1,0 +1,26 @@
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+version 1.9.0
+
+re-implemented re-written battle animation code
+	0x235e3c4 (initial expression)
+	0x235e2ec (final expression)
+	0x235063c (sets initial animation data)
+added most CO stats to CO_data_rebal.asm
+added most unit data to units_label.asm
+reworked unit movement costs
+	now writes to static area
+	move costs loaded from external files
+	cleared move cost data from overlays 0000, 0007
+combat mode power descriptions now allocated to own table from CO data
+changed structure of CO data
+	tag data
+	faction/color/AI data
+rewrote routines:
+	0x20e17f0 (retrieves pointer to tag texts)
+	0x20e5488 (retrieves number of tag stars)
+	0x20e1948 (retrieves tag stars between pair)
+	
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+
