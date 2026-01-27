@@ -1,4 +1,14 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighty-ninth release (1.9.04) {01/27/2026} [bugfix update]: 
+
+Changelog:
+	→when removing/deleting a unit, the entirety of that unit's data is cleared
+
+Bugfixes:
+	→fixed game crash when attempting certain actions that remove/delete a unit
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Eighty-eighth release (1.9.03) {01/27/2026} [bugfix update]: 
 
 Bugfixes:
