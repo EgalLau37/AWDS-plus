@@ -1,0 +1,13 @@
+This folder will contain experimental versions.
+They are identical to the regular patches except I am testing
+something else that could cause major issues.
+
+I have decided to release an experimental version, 1.9.03ε.
+The purpose of this test is to see how well increasing save data goes.  In this experimental version, I have included the extra COs in the save data, such as the soldiers, meaning their Force Ranks data should be saved.
+
+CAUTION:
+Before using this version, be sure to back-up your save.  There is the possibility your save file may become distorted, corrupted, or broken.  Use at your own risk.
+I need some data as to whether this is safe/doable or not, so some testing would be helpful.
+
+
+
