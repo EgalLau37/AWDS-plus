@@ -1,4 +1,14 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninetieth release (1.9.05) {01/27/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed Adder not granting boosts to foot soldiers during powers
+	→fixed OS Soldier not having correct CO data
+	→fixed Drop command being available when it should not
+	→fixed Load command not being available when it should
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Eighty-ninth release (1.9.04) {01/27/2026} [bugfix update]: 
 
 Changelog:
