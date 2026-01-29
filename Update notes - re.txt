@@ -1,4 +1,16 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-first release (1.9.1) {01/27/2026} [mini update]: 
+
+Changelog:
+	→the map no longer scrolls when the player moves the cursor around the map if the map is sufficiently small
+	→the map no longer scrolls when a unit moves if the map is sufficiently small
+	→the camera now scrolls such that the map is centered on-screen at match start if the map is sufficiently small
+
+Bugfixes:
+	→fixed bug that caused the AI to crash the game when attempting to calculate whether to perform CO swap in certain situations
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninetieth release (1.9.05) {01/27/2026} [bugfix update]: 
 
 Bugfixes:
