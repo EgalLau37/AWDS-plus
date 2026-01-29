@@ -1,4 +1,15 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-second release (1.9.11) {01/29/2026} [bugfix update]: 
+
+Changelog:
+	→restored modified version of original camera position calculation routine that implements the the previous changes
+
+Bugfixes:
+	→fixed oversight that caused the AI to crash the game when calculating a target tile for transports
+	→fixed change to terrain-to-firepower calculation that was reverted (reading signed to unsigned)
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-first release (1.9.1) {01/27/2026} [mini update]: 
 
 Changelog:
