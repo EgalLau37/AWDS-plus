@@ -1,4 +1,32 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-third release (1.9.2) {02/01/2026} [DS update]: 
+
+Changelog:
+	→lifted the hardcoded movement cap from 11 to 30
+	→the CO gamestyle option is now partially functional
+	→tweaked the camera positioning code to make the map more centered if the map size is sufficiently small
+	→tweaked the animation for Meteor Strike
+	→reworked the targeting for Meteor Strike to more closely resemble its targeting mechanics from AW1/AW2
+	→reworked the routine for starting/previous cursor coordinates
+	→disabled save prompt that appeared when pressing Start in the Gamestyle Config room
+	→tweaked position of the TAG POWER graphic on the top screen
+
+Bugfixes:
+	→fixed map Eiffel Tower having a pointer to unit data that it should not have
+	→fixed Colin's CO power not boosting attack based on funds
+	→fixed Grimm still using his day-to-day stats during powers
+	→fixed Sound Room leading to Gamestyle config room if the Gamestyle config room was previously entered
+	→attempted to fix oddities with two-front battles regarding turn transitions between fronts
+	→fixed power status display on the top-screen being incorrect for DS battles
+	→fixed bug that caused the Scoreboard menu command check to incorrectly overwrite the description box text
+	→fixed oversight with AI calculation routine for Anti-Air special purchase subphase that failed to check whether the AI had sufficient funds
+	→fixed bug where swapping the top-screen display would cause the game to hang indefinitely
+	→fixed oversight where the camera would allow scrolling too far past the map edges
+	→fixed Javier's palette being overwritten on the Combat Mode CO select screen
+	→fixed oversight where incorrect data was being read for Daycount and Property counts when transitioning into the Rules parameters screen
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-second release (1.9.11) {01/29/2026} [bugfix update]: 
 
 Changelog:
