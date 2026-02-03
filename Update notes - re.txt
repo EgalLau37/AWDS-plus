@@ -1,4 +1,18 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-fourth release (1.9.21) {02/01/2026} [DS update]: 
+
+Changelog:
+	→CO texts are now updated when changing CO gamestyle
+	→CO tag synergies are now updated when changing CO gamestyle
+	→the game now remembers if the Gamestyle room has been entered before
+
+Bugfixes:
+	→fixed game crash when attempting to attack a tile
+	→fixed game crash when getting ambushed by an enemy unit
+	→fixed Javier's face being used as the name graphic during Combat mode unit purchasing
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-third release (1.9.2) {02/01/2026} [DS update]: 
 
 Changelog:
