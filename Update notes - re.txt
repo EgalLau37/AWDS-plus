@@ -1,4 +1,18 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-fifth release (1.9.3) {02/04/2026} [mini invention update]: 
+
+Changelog:
+	→the Laser now plays a placeholder animation and is processed normally
+	→the Death Ray now plays a placeholder animation and is processed normally
+	→the Death Ray no longer damages Black Hole units
+	→the Laser now fires every two turns instead of every turn
+
+Bugfixes:
+	→fixed AI calculating whether to perform CO swap incorrectly
+	→fixed game crash due bug in AI enemy air unit calculation routine
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-fourth release (1.9.22) {02/04/2026} [bugfix update]: 
 
 Changelog:
@@ -6,6 +20,7 @@ Changelog:
 
 Bugfixes:
 	→fixed oversight that resulted in the game checking an incorrect value for whether snow affects movement costs
+	→fixed incorrect per-unit SFX for Hawke's powers
 	→fixed game crashing when activating Ex Machina
 	→fixed Ex Machina not applying the paralyze status correctly
 	→fixed Meteor Strike using the old effect instead of the reworked effect for AW3 CO gamestyle
