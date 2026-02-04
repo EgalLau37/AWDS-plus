@@ -1,4 +1,19 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-fourth release (1.9.22) {02/04/2026} [bugfix update]: 
+
+Changelog:
+	→Ex Machina's per-unit healing now plays the per-unit animation
+
+Bugfixes:
+	→fixed oversight that resulted in the game checking an incorrect value for whether snow affects movement costs
+	→fixed game crashing when activating Ex Machina
+	→fixed Ex Machina not applying the paralyze status correctly
+	→fixed Meteor Strike using the old effect instead of the reworked effect for AW3 CO gamestyle
+	→fixed game crash caused by AI special Fighter purchase-subphase routine calculation
+	→fixed specific AI Fighter counting routine counting units with HP>50 instead of HP<50
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-fourth release (1.9.21) {02/01/2026} [DS update]: 
 
 Changelog:
