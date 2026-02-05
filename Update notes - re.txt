@@ -8,8 +8,8 @@ Changelog:
 	→the Laser now fires every two turns instead of every turn
 
 Bugfixes:
-	→fixed AI calculating whether to perform CO swap incorrectly
-	→fixed game crash due bug in AI enemy air unit calculation routine
+	→fixed AI incorrectly calculating whether to perform CO swap
+	→fixed game crash due to bug a in AI enemy air unit calculation routine
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
