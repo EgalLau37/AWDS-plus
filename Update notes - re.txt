@@ -1,4 +1,21 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-sixth release (1.9.4) {02/06/2026} [update]: 
+
+Changelog:
+	→Rachel's units are now actually on loan from Blue Moon in Jake's Trial
+	→tweaked some texts for some campaign missions
+	→added several options to the Gamestyle config room
+		☼AI purchase routine
+		☼Oozium price
+		☼meter charge formula (work-in-progress)
+
+Bugfixes:
+	→fixed day-to-day abilities being disabled during some early campaign missions
+	→fixed incorrect power music playing during certain campaign missions
+	→fixed Mini-Cannons using incorrect animations
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-fifth release (1.9.3) {02/04/2026} [mini invention update]: 
 
 Changelog:
