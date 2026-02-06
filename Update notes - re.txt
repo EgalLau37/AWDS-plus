@@ -1,5 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Ninety-sixth release (1.9.4) {02/06/2026} [update]: 
+Ninety-seventh release (1.9.41) {02/05/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed bug that caused the AI to hang the game when calculating whether to purchase Anti-Air
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-sixth release (1.9.4) {02/05/2026} [mini update]: 
 
 Changelog:
 	→Rachel's units are now actually on loan from Blue Moon in Jake's Trial
