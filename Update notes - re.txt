@@ -1,4 +1,15 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninety-ninth release (1.9.43) {02/08/2026} [bugfix update]: 
+
+Changelog:
+	→changed Sturm's theme to Actual_Krys's Dual Strike version
+	→shifted the Survival course selection windows up
+
+Bugfixes:
+	→fixed oversight that caused unit meter values to be calculated incorrectly
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-eighth release (1.9.42) {02/06/2026} [bugfix update]: 
 
 Bugfixes:
