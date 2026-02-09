@@ -4,7 +4,7 @@ Advance Wars- Dual Strike+
 	[Discord:			https://discord.gg/dgPHASWY3G (Server of Actual_Krys "Actual_Discord")]
 	[Youtube:			https://www.youtube.com/channel/UCkNo0SdGvbo-iRnNrKnftIQ ]
 
-Current Version: (1.6.2) {11/09/2024}
+Current Version: (1.9.43) {02/08/2026}
 Current overview:
 	♦Rebalances all COs to be in roughly the same tier for PVP
 		♪https://docs.google.com/spreadsheets/d/1sKAQt_YcIJz2JVh7RWCgb9Z8nnsRX_tO/edit?usp=sharing&ouid=102492150285942258676&rtpof=true&sd=true
@@ -58,7 +58,6 @@ Current overview:
 
 To-do:
 	☼Polish Sturm's meteor
-	☼Display graphics for multi-tile terrain in Mapedit mode
 	☼Full-body graphics for the soldiers
 	☼Continue improving AI
 	☼Polish up-point animations
@@ -66,5 +65,8 @@ To-do:
 Credits:
 	♪Xenesis - 		Super Force Ranks skills
 	♪RadioTails -	Extra overlay code for freespace
-	♪Actual_Krys -	Graphics for Sturm; ruins tileset
+	♪Actual_Krys -	Base graphics for Sturm (alternate); graphics for Sturm's background; ruins tileset
 	♪AWBW - PVP maps
+	♪Sturm Magma Ocean - Re-Boot Camp-style graphics for Sturm + new palettes
+
+
