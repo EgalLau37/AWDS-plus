@@ -1,4 +1,46 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundreth release (1.9.5) {02/15/2026} [System upgrade ε]: 
+
+Changelog:
+	→Plains tiles with rubble now use the correct palette
+	→left/right-facing Cannons now play a temporary animation instead of hanging the game
+	→added map The Junkyard to Money Survival
+	→changed unit placements for map Resurrection
+	→re-wrote the routine for determining replacement CO IDs on match start
+	→weather and tileset are now set for the secondary front in non-Versus battles
+	→swapped pages 2 and 3 on the CO Info screen
+	→added Dual Strike name to page 3 of the CO Info screen
+	→increased Recon damage and movement speed in Combat mode
+	→increased Artillery damage, firing speed, and capture speed in Combat mode
+	→increased duration of CO power effects for Javier and Grimm in Combat mode
+	→the unit Gamestyle option now affects movement costs
+	→fixed the Yellow Comet Battle Setup window for CO select being incorrect
+	→swapped the Yellow Comet window palette with the base game palette
+	→added Touch Screen buttons for L-Cycle and Select during main gameplay
+	
+Bugfixes:
+	→fixed Sturm's Sound Room entry being incorrect
+	→fixed Money Survival crashing when transitioning between maps
+	→fixed CO power cost incorrectly being set when transitioning between maps in Survival
+	→fixed Turn Survival score not saving correctly
+	→fixed ranges of left/right-facing Cannons being offset incorrectly
+	→fixed bug that caused Power of Money to increase attack incorrectly
+	→fixed AI dropping units on tiles that they cannot traverse
+	→fixed AI failing to auto-assign the capture action with Mech
+	→fixed Andy missing unit boosts during powers
+	→fixed movement/range boost numbers sometimes not appearing on the unit page of the CO Info screen
+	→fixed Rules parameters screen displaying incorrect data during matches
+	→temporarily fixed combat mode stat stars not displaying correctly during Combat Mode unit purchase screen
+	→fixed first-strike counter battle animations not playing correctly
+	→fixed Koal's first-strike counters on Roads failing to apply for clone Koal
+	→fixed Koal's first-strike counters on Roads applying even on AW3 CO gamestyle
+	→fixed campaign scores for the current playthrough saving in the old format
+	→fixed Yellow Comet faction icon being replaced by Rank graphic on the Battle Setup CO select screen
+	→fixed ambushed while dropping units failing to update the transport unit's status
+	→fixed oversight that allowed the AI to attack from a tile with another unit on it if that unit was previously attempting to join
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Ninety-ninth release (1.9.43) {02/08/2026} [bugfix update]: 
 
 Changelog:
@@ -71,7 +113,7 @@ Bugfixes:
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Ninety-fourth release (1.9.21) {02/01/2026} [DS update]: 
+Ninety-fourth release (1.9.21) {02/01/2026} [bugfix update]: 
 
 Changelog:
 	→CO texts are now updated when changing CO gamestyle
