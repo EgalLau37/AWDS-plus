@@ -6,7 +6,7 @@ Bugfixes:
 	→fixed game crash when attempting to start non-Versus matches (Fog of War not being set properly)
 	→fixed some incorrect movecosts for AW3 unit Gamestyle option
 	→fixed incorrect CO power musics playing during certain campaign missions
-	
+
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundreth release (1.9.5) {02/15/2026} [System upgrade ε]: 
