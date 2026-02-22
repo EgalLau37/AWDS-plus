@@ -1,4 +1,30 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-second release (1.9.6) {02/21/2026} [minor system update]: 
+
+Changelog:
+	→funds and property counts are now hidden while on the faction transition screen
+	→increased AI battle exchange value against Infantry for Mech
+	→changed the R Info panel on the unit stats page of the CO Info screen
+	→page 3 of the CO Info screen now diplays the tag synergy
+	→the CO Gamestyle AW2 option now functions
+
+Bugfixes:
+	→fixed game hanging indefinitely during DS battles due to failing to update gameplay state correctly
+	→fixed game crash when winning a battle by route or yield
+	→fixed AW1/2 (2) snow gamestyle option not working properly
+	→fixed Drake missing his rain lord innate skill
+	→fixed snow immunity innate skill not granting immunity to snow
+	→fixed range modifiers on the CO Info screen not taking into account skills
+	→fixed oddities with the defense bars on the CO Info screen
+	→fixed Espionage granting enemies terrain stars instead of subtracting
+	→fixed Empowerer not applying to Espionage and Intel Leak
+	→fixed unit damage chart causing game to crash
+	→fixed AI specific unit exchange check being incorrect
+	→fixed typo on skills/tag page of CO Info screen
+	→fixed Sonja granting negative luck to enemies while AW3 CO gamestyle is active
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-first release (1.9.51) {02/17/2026} [System upgrade ε]: 
 
 Bugfixes:
