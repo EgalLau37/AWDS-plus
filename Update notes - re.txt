@@ -4,6 +4,8 @@ One-hundred-third release (1.9.7) {02/28/2026} [minor system update]:
 Changelog:
 	→the up/down arrows on the unit results screen now properly load/unload depending on how many fronts were active
 	→added Touch Screen buttons in the Sound Room for setting the main menu and Design room background songs
+	→the narrator is no longer tied to the selected wallpaper
+	→the narrator can now be selected by toggling the arrow in the Display room
 	→Olaf is now penalized in rain in all snow gamestyle options
 	→when purchasing units, the game now displays a unit cost calculator
 	→completely re-worked the AI CO swap weight calculation routine
