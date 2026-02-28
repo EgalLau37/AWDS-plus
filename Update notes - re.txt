@@ -1,4 +1,28 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-third release (1.9.7) {02/28/2026} [minor system update]: 
+
+Changelog:
+	→the up/down arrows on the unit results screen now properly load/unload depending on how many fronts were active
+	→added Touch Screen buttons in the Sound Room for setting the main menu and Design room background songs
+	→Olaf is now penalized in rain in all snow gamestyle options
+	→when purchasing units, the game now displays a unit cost calculator
+	→completely re-worked the AI CO swap weight calculation routine
+
+Bugfixes:
+	→fixed map names not updating properly on the unit results screen for DS matches
+	→fixed CO texts not correctly loading on boot-up based on CO gamestyle option selected
+	→fixed clone COs not appearing properly on CO select screens
+	→fixed oversight in AI APC supply routine that could cause the AI to infinitely loop
+	→fixed oversight with AI CO swap routine where a later of the code was not updated to match the earlier section
+	→fixed Andy using his AW3 CO power per-unit effects with plus CO gamestyle option selected
+	→fixed fog of war transition screen appearing when it need not to
+	→fixed game crash during fog of war related to top-screen faction info update
+	→replaced mini-cannons in map A New Threat with 湖 tiles
+	→fixed Kindle not receiving +3% firepower per property when activating Super CO power
+	→fixed oversight that caused unit-based starting coordinates to be incorrect
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-second release (1.9.6) {02/21/2026} [minor system update]: 
 
 Changelog:
