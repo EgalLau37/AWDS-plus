@@ -1,4 +1,23 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-fourth release (1.9.8) {03/09/2026} [minor system update]: 
+
+Changelog:
+	→the AI will now attack from allied production properties if the AI cannot currently purchase anything from that property
+	→L/R page toggle Touch Screen buttons have been added to the unit damage chart
+	→added an option to view the numerical values for stats on the unit page of the CO Info screen
+
+Bugfixes:
+	→fixed bug that caused game crash when activating CO power
+	→fixed bug that caused Rain movement cost effects to be calculated incorrectly
+	→fixed bug that caused the AI to calculate idle repair target tiles incorrectly
+	→fixed oversight that caused Black Bombs to be considered direct-attack units
+	→fixed oversight that caused Oozium to be considered direct-attack units
+	→fixed Sound Room listing missing That's a Wrap!
+	→fixed incorrect graphic on War Room map select screen
+	→fixed Olaf not being weakened by rain
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-third release (1.9.7) {02/28/2026} [minor system update]: 
 
 Changelog:
