@@ -3,7 +3,7 @@ One-hundred-fifth release (1.9.9) {03/14/2026} [minor system update]:
 
 Changelog:
 	→the Unit chart list now displays the full HP instead of (HP/10)
-	→finished implentation of the Touch Screen arrows in the Design Room
+	→finished implementation of the Touch Screen arrows in the Design Room
 	→added L/R/Select buttons to the unit/terrain selection menu in the Design Room
 	→added a shuffle song feature to the Sound Room
 	→the terrain selection menu now displays a description of the currently highlighted tile in the Design Room
