@@ -1,4 +1,22 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-fifth release (1.9.9) {03/14/2026} [minor system update]: 
+
+Changelog:
+	→the Unit chart list now displays the full HP instead of (HP/10)
+	→finished implentation of the Touch Screen arrows in the Design Room
+	→added L/R/Select buttons to the unit/terrain selection menu in the Design Room
+	→added a shuffle song feature to the Sound Room
+	→the terrain selection menu now displays a description of the currently highlighted tile in the Design Room
+
+Bugfixes:
+	→fixed bug with AI calculation relating to purchasing Fighters
+	→fixed some input-related bugs in the Design Room
+	→fixed AW4-style snow granting -1 move to COs that are not weak in the rain
+	→fixed bugs relating to palettes during battle animations
+	→fixed incorrect foot SFX during battle animations
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-fourth release (1.9.8) {03/09/2026} [minor system update]: 
 
 Changelog:
