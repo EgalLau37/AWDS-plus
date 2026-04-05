@@ -12,6 +12,7 @@ Bugfixes:
 	→fixed oversight that caused the CO Info screen to calculate firepower from skills incorrectly for the back CO
 	→fixed clones not appearing correctly when transitioning between screens during Versus CO select
 	→fixed Lander and Black Boat having direct-attack range display
+	→fixed oversight that caused the game to check day limit incorrectly
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
