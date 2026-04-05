@@ -1,4 +1,20 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-sixth release (1.10.0) {04/05/2026} [minor system update]: 
+
+Changelog:
+	→added Touch Screen objects for faction AI during team select in Versus
+
+Bugfixes:
+	→fixed some oversights related to AI calculations that resulted in extra units being checked when they should not
+	→fixed the save during CPU turn functionality being omitted
+	→fixed bug that caused game crash during the intro animation
+	→fixed bug that caused the AI to calculate CO swap weights incorrectly
+	→fixed oversight that caused the CO Info screen to calculate firepower from skills incorrectly for the back CO
+	→fixed clones not appearing correctly when transitioning between screens during Versus CO select
+	→fixed Lander and Black Boat having direct-attack range display
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-fifth release (1.9.9) {03/14/2026} [minor system update]: 
 
 Changelog:
