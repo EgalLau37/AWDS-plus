@@ -1,4 +1,16 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-seventh release (1.10.1) {05/08/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed some incorrect tag synergies
+	→fixed incorrect tiles appearing on the third terrain menu screen in the Design Room
+	→fixed certain tiles causing the game to crash when placed in the Design Room
+	→fixed fog of war causing the game to crash in Combat mode
+	→fixed campaign scores not saving in the correct format
+	→fixed game crash when attempting to enter the Gamestyle config room
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-sixth release (1.10.0) {04/05/2026} [minor system update]: 
 
 Changelog:
