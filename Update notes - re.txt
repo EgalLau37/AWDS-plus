@@ -1,4 +1,31 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-eighth release (1.10.2) {05/22/2026} [System upgrade ζ]: 
+
+Changelog:
+	→the Select button can now be used to toggle clone COs on the Versus CO select screen
+	→added on-screen button for toggling Clone COs on the Versus CO select screen
+	→fixed the AI not attacking with a unit if the battle outcome was similar to another unit's
+	→the AI will now attack with a weaker unit first if another unit can only attack from the first unit's current position
+	→the Start button can now be used to advance screens on the Versus CO select screen
+	→added new pages to hack info manual
+	→changed the summary text for the Combat manual
+	→added left-handed controls to Combat mode
+	→added ability to toggle left-handed controls in Combat mode
+	→implemented initial version of expanded save data
+	→reworked some save data structure
+	→the L/R/X/Y buttons can now be used to shift the CO portrait left/right/down/up in the Color Edit room
+	→added a unique scrolling description for the Gamestyle config room on the main menu
+	→the scrolling text now specifies whether a wallpaper or narrator is being selected in the Edit Display room
+	→added option to set player/advisor name
+
+Bugfixes:
+	→fixed certain terrain tiles not being correct in the Design Room
+	→fixed the HQ icon failing to update when changing faction colors in the Design Room
+	→fixed checks for whether to swap fronts being coded incorrectly resulting in fronts not swapping correctly
+	→fixed clones always having 0 EXP instead of the original amount
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-seventh release (1.10.1) {05/08/2026} [bugfix update]: 
 
 Bugfixes:
