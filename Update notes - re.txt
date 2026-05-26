@@ -1,4 +1,26 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-ninth release (1.10.3) {05/26/2026} [minor Force Ranks update]: 
+
+Changelog:
+	→currently equipped skills are now displayed on the Versus team/AI select and Versus Rules parameters sub-screens
+	→CPU factions now always have skills in War Room regardless of the War Room sub-mode
+	→enemy COs now have Force Rank skills for Hard Campaign
+	→the Start button can now be used to immediately skip the campaign intro cutscene
+	→changed Oozium cost increments in the Gamestyle config room from 1000 to 100
+
+Bugfixes:
+	→fixed clone toggle button being useable on the random CO option
+	→fixed the digits for the Timer Rules parameter appearing at the top of the screen
+	→fixed the Switch menu command not working properly
+	→fixed first-strike animations reverting back to its initial change
+	→fixed clones displaying blank/garbage data for skills on Versus CO select screen
+	→fixed faction AI not displaying on the Rules parameters screen for 2-player matches
+	→fixed teams not displaying on the Rules parameters screen for 2-player matches	
+	→fixed the game initializing faction permanent skill flags with non-00 data
+	→fixed Oozium cost not being set correctly
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-eighth release (1.10.2) {05/22/2026} [System upgrade ζ]: 
 
 Changelog:
