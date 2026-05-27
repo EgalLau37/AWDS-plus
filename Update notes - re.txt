@@ -1,4 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-tenth release (1.10.31) {05/27/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed Force Rank skills saving incorrectly when exiting the Force Ranks screen with clones
+	→fixed bug that caused game to crash when the AI attempted to perform a battle simulation
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-ninth release (1.10.3) {05/26/2026} [minor Force Ranks update]: 
 
 Changelog:
