@@ -1,4 +1,23 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-eleventh release (1.10.4) {06/02/2026} [bugfix update]: 
+
+Changelog:
+	→added ability to scroll the camera during battle animations using L, R, or L+R and D-pad
+	→added ability to disable battle animations from automatically ending with the Select button
+
+Bugfixes:
+	→fixed tag inconsistenices between Koal/Adder
+	→fixed Switch command not working properly
+	→fixed pressing D-pad up/down on faction AI scrolling the incorrect directions
+	→fixed faction AI skipping over all-out when pressing up
+	→fixed not being able to join onto units with 10 HP with the corresponding setup flag enabled
+	→fixed auto-color routine using the back CO's sprite style instead of faction color
+	→fixed oversight that caused Force Rank skills to not bet set for CPU factions in Versus mode
+	→fixed oversight that could cause the game to crash when calculating luck
+	→fixed bug that caused the menu command descriptions for faction colors to be incorrect
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-tenth release (1.10.31) {05/27/2026} [bugfix update]: 
 
 Bugfixes:
