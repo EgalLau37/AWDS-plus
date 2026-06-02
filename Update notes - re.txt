@@ -1,4 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-tweltfh release (1.10.41) {06/02/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed bug that caused the CO power screen to cause the graphics to glitch
+	→fixed bug that caused allied properties to not provide vision
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-eleventh release (1.10.4) {06/02/2026} [bugfix update]: 
 
 Changelog:
@@ -6,7 +14,7 @@ Changelog:
 	→added ability to disable battle animations from automatically ending with the Select button
 
 Bugfixes:
-	→fixed tag inconsistenices between Koal/Adder
+	→fixed tag inconsistencies between Koal/Adder
 	→fixed Switch command not working properly
 	→fixed pressing D-pad up/down on faction AI scrolling the incorrect directions
 	→fixed faction AI skipping over all-out when pressing up
