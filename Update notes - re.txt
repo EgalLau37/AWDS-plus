@@ -1,4 +1,18 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-thirteenth release (1.10.42) {06/02/2026} [bugfix update]: 
+
+Changelog:
+	→the Faction Setup menu is now accessible outside Battle Setup in Versus
+	→the A button can now be used during CPU matches to open the main menu
+
+Bugfixes:
+	→fixed bug that caused Super CO power screen to crash the game
+	→fixed oversight that caused the incorrect faction defeat message to display
+	→fixed the page toggle button not switching the skills list on the Edit Skills screen
+	→fixed conflict with RAM areas resulting in incorrect data being used as skill data
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-tweltfh release (1.10.41) {06/02/2026} [bugfix update]: 
 
 Bugfixes:
