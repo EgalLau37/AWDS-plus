@@ -4,6 +4,7 @@ One-hundred-fourteenth release (1.10.43) {06/04/2026} [bugfix update]:
 Bugfixes:
 	→fixed bug that caused damage taken in funds to be calculated incorrectly
 	→fixed serious bug related to accessing the menu during CPU-only matches
+	→fixed backing out of Faction Setup loading the Battle setup options menu
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
