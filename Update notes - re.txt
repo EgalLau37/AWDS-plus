@@ -1,4 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-fourteenth release (1.10.43) {06/04/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed bug that caused damage taken in funds to be calculated incorrectly
+	→fixed serious bug related to accessing the menu during CPU-only matches
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-thirteenth release (1.10.42) {06/02/2026} [bugfix update]: 
 
 Changelog:
@@ -9,7 +17,7 @@ Bugfixes:
 	→fixed bug that caused Super CO power screen to crash the game
 	→fixed oversight that caused the incorrect faction defeat message to display
 	→fixed the page toggle button not switching the skills list on the Edit Skills screen
-	→fixed conflict with RAM areas resulting in incorrect data being used as skill data
+	→attempted to fix conflict with RAM areas resulting in incorrect data being used as skill data
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
