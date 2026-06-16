@@ -1,4 +1,27 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-fifteenth release (1.10.5) {06/16/2026} [System upgrade η]: 
+
+Changelog:
+	→added a few more starting units in Means to an End (hard)
+	→added a unique faction controller menu for Versus mode and Means to an End during campaign
+	→epilogue scenes can now be skipped with the Start button (skips at end of current text)
+	→changed checks related to the Versus timer to make it function more smoothly
+	→the last selected menu command is now remembered for all menu commands on all menus except the main menu
+
+Bugfixes:
+	→fixed incorrect flags being set during War Room for skill availability
+	→fixed unit HP on-map not being hidden if Cover Identity was equipped
+	→fixed Von Bolt using the main menu theme instead of his theme during Means to an End
+	→fixed a Bomber in Means to an End (DS) having the same coordinates as another B-Copter for faction 4
+	→fixed timer during Versus not resetting at the end of each turn
+	→fixed player control being active while the map was fading in after using the Load menu command
+	→fixed Load menu command causing game crash if it was used 15 times consecutively
+	→fixed Load menu command not being checked properly during campaign
+	→fixed Faction setup menu cursor defaulting to last selected command from Option menu
+	→fixed initial descriptions from the Faction setup submenus being incorrect
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-fourteenth release (1.10.43) {06/04/2026} [bugfix update]: 
 
 Bugfixes:
