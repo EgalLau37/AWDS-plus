@@ -2,7 +2,7 @@
 One-hundred-sixteenth release (1.10.51) {06/18/2026} [bugfix update]: 
 
 Bugfixes:
-	→fixed bug that caused game to hang when loading maps
+	→fixed bug that caused game to crash when loading maps
 	→fixed bug that caused the Faction setup color menu commands writing invalid color values
 
 
