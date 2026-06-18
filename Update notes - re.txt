@@ -1,4 +1,12 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-seventeenth release (1.10.52) {06/18/2026} [bugfix update]: 
+
+Bugfixes:
+	→fixed checker for campaign-related flags reverting back to the original address
+	→fixed a line of code being leftover from player gameplay state ID 0x1 that caused the game to crash
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-sixteenth release (1.10.51) {06/18/2026} [bugfix update]: 
 
 Bugfixes:
