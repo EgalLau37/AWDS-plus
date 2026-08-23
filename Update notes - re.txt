@@ -1,5 +1,5 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-One-hundred-eighteenth release (1.10.6) {08/23/2026} [System upgrade ]: 
+One-hundred-eighteenth release (1.10.6) {08/23/2026} [System upgrade θ]: 
 
 Changelog:
 	→re-wrote the routine for faction auto-color
