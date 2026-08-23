@@ -1,4 +1,38 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-eighteenth release (1.10.6) {08/23/2026} [System upgrade ]: 
+
+Changelog:
+	→re-wrote the routine for faction auto-color
+	→battle scoring for Versus mode no longer checks for at least one ally to faction 1 surviving
+	→the game now keeps track of how many times a CO is played by player factions for history statistics
+	→battle scoring for Versus now calculates using the winning faction and all allied factions instead of all player-controlled factions
+	→the maximum amount of inventions destroyed is now capped at 15 for faction data
+	→the game now keeps track of Laser, Deathray, and Obelisk destroyed in faction data and history statistics
+	→added new History room entries for times each CO has been played
+	→changed how the game determines which coordinates to use for the Battle setup CO select screen mini-map
+	→tweaked ammo/fuel for some units in Healing Touch (N/H)
+	→updated the AI CO power determination for Jugger, Olaf, Drake to check for weather immunities from skills instead of hardcoded CO IDs
+	→updated the AI CO swap determination for Jugger, Olaf, Drake to check for weather immunities from skills instead of hardcoded CO IDs
+	→added ability to cycle through Force Rank set letters on the Battle Setup CO Select screen in Versus mode
+	→added some compatability for Japanese, Dutch, French, Italian, Spanish
+	→unit speed, capture animation, and battle animation settings can now be set individually
+	→the L or R button can now be held to invert whether a capture/battle animation should play
+	→changed capture animations to always play during Fog of war if finishing an HQ capture
+
+Bugfixes:
+	→fixed faction colors on the secondary front initially using the incorrect colors
+	→fixed some checks for the fade-out object not waiting for the object to finish
+	→fixed routine for saving CO IDs at match start saving CO IDs for factions incorrectly
+	→fixed CO IDs not being set correctly upon starting a new save
+	→fixed new War Room scores not overwriting old scores
+	→fixed tag partner-based skills not being checked for properly
+	→fixed AI always using CO swap after using Super CO power
+	→fixed Silos not working as intended on map Crystal Calamity
+	→fixed oversight that could cause the AI to crash the game if it has no units
+	→fixed fuel not being subtracted correctly after actions if the arrow was redirected in certain scenarios
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-seventeenth release (1.10.52) {06/18/2026} [bugfix update]: 
 
 Bugfixes:
