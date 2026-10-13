@@ -1,4 +1,30 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-twentieth release (1.10.7) {10/13/2026} [bugfix release]: 
+
+Bugfixes:
+	→fixed oversight that caused cancelling out of certain unit actions to load the main menu command list instead of the unit command list
+	→fixed game crash related to Sound Room
+	→fixed oversight that allowed the unit speed option to go higher than it should
+	→fixed game crash when a faction lost by route on its own turn
+	→fixed missing files for backgrounds for Drake for French, Dutch, Spanish, Italian
+	→fixed game checking the incorrect faction for whether a CO selection should be locked on the CO select screen
+	→fixed game crash during the intro cutscene
+	→fixed game crash if battle animations were set to Players/Allies
+	→fixed Max's Spanish background being incorrect
+	→fixed game crash when attempting to load Sturm's background
+	→fixed additional units being available to build when they should not be in Jake's Trial during campaign mode
+	→fixed game crash when attempting to capture due to missing graphics in English
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+One-hundred-nineteenth release (1.10.61) {09/26/2026} [bugfix release]: 
+
+
+Bugfixes:
+	→fixed game crash when entering the CO Setup screen
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 One-hundred-eighteenth release (1.10.6) {08/23/2026} [System upgrade θ]: 
 
 Changelog:
